@@ -35,3 +35,5 @@ Algorithm used for crossword generation:
 4. Once all words are placed, check if this board’s score is higher than the previous attempt’s score. If it is, use the new board.
 
 5. Iterate until maximum amount of tries attempted (to go through as many possible permutations of boards to get the board with the best score) and return the generated board.
+
+Generation code can be found in Scripts/Crossword/LevelGenerator.cs
