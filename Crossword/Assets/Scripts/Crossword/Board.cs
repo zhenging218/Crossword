@@ -200,10 +200,11 @@ namespace Crossword
 
 			for(int j = 0; j < b.height; ++j)
 			{
+				ret += "|";
 				for(int i = 0; i < b.width; ++i)
 				{
 					char curr = b[i, j];
-					ret = ret + "|" + curr.ToString() + "|";
+					ret = ret + curr.ToString() + "|";
 				}
 				ret += "\n";
 			}

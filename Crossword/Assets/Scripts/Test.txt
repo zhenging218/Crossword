@@ -1,27 +1,28 @@
 board has 10 words
-0: aahing(6) occupies 5, 9 to 5, 14
-1: ableptical(10) occupies 5, 9 to 14, 9
-2: abjudge(7) occupies 0, 14 to 6, 14
-3: abbreviators(12) occupies 10, 1 to 10, 12
-4: abjures(7) occupies 8, 4 to 8, 10
-5: aani(4) occupies 2, 12 to 5, 12
-6: aboideaux(9) occupies 13, 3 to 13, 11
-7: abdominally(11) occupies 3, 1 to 13, 1
-8: abarticular(11) occupies 0, 5 to 0, 15
-9: abatjour(8) occupies 3, 1 to 3, 8
-| || || || || || || || || || || || || || || || |
-| || || ||a||b||d||o||m||i||n||a||l||l||y|| || |
-| || || ||b|| || || || || || ||b|| || || || || |
-| || || ||a|| || || || || || ||b|| || ||a|| || |
-| || || ||t|| || || || ||a|| ||r|| || ||b|| || |
-|a|| || ||j|| || || || ||b|| ||e|| || ||o|| || |
-|b|| || ||o|| || || || ||j|| ||v|| || ||i|| || |
-|a|| || ||u|| || || || ||u|| ||i|| || ||d|| || |
-|r|| || ||r|| || || || ||r|| ||a|| || ||e|| || |
-|t|| || || || ||a||b||l||e||p||t||i||c||a||l|| |
-|i|| || || || ||a|| || ||s|| ||o|| || ||u|| || |
-|c|| || || || ||h|| || || || ||r|| || ||x|| || |
-|u|| ||a||a||n||i|| || || || ||s|| || || || || |
-|l|| || || || ||n|| || || || || || || || || || |
-|a||b||j||u||d||g||e|| || || || || || || || || |
-|r|| || || || || || || || || || || || || || || |
+0: aberrator(9) occupies 5, 7 to 5, 15
+1: abbadide(8) occupies 2, 7 to 9, 7
+2: abaised(7) occupies 0, 9 to 6, 9
+3: aargh(5) occupies 5, 12 to 9, 12
+4: abacinate(9) occupies 0, 3 to 0, 11
+5: aaronitic(9) occupies 7, 0 to 7, 8
+6: abjudication(12) occupies 0, 0 to 11, 0
+7: abiezer(7) occupies 9, 4 to 9, 10
+8: abannition(10) occupies 2, 7 to 2, 16
+9: abirritated(11) occupies 4, 2 to 14, 2
+|a|b|j|u|d|i|c|a|t|i|o|n| | | | | |
+| | | | | | | |a| | | | | | | | | |
+| | | | |a|b|i|r|r|i|t|a|t|e|d| | |
+|a| | | | | | |o| | | | | | | | | |
+|b| | | | | | |n| |a| | | | | | | |
+|a| | | | | | |i| |b| | | | | | | |
+|c| | | | | | |t| |i| | | | | | | |
+|i| |a|b|b|a|d|i|d|e| | | | | | | |
+|n| |b| | |b| |c| |z| | | | | | | |
+|a|b|a|i|s|e|d| | |e| | | | | | | |
+|t| |n| | |r| | | |r| | | | | | | |
+|e| |n| | |r| | | | | | | | | | | |
+| | |i| | |a|a|r|g|h| | | | | | | |
+| | |t| | |t| | | | | | | | | | | |
+| | |i| | |o| | | | | | | | | | | |
+| | |o| | |r| | | | | | | | | | | |
+| | |n| | | | | | | | | | | | | | |
