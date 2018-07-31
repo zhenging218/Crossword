@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Crossword;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
@@ -19,6 +20,8 @@ public class GameManager : MonoBehaviour {
 
     public GameObject CellPrefab;
     public RectTransform BoardOrigin;
+
+	public Text t;
 
     void Awake()
     {
@@ -39,48 +42,37 @@ public class GameManager : MonoBehaviour {
                     awords.Add(db['a', indices[i]]);
                 }
                 board = LevelGenerator.Generate(awords);
-                var r = CellPrefab.transform as RectTransform;
+				if(t != null)
+				{
+					t.text = Board.PrintBoard(board);
+				}
+				var r = CellPrefab.GetComponent<GameCell>();
                 if(r == null)
                 {
                     Debug.LogError("NO PROPER CELL PREFAB");
                     return;
                 }
-                float width = r.rect.width;
-                float height = r.rect.height;
-                Vector3 origin = Vector3.zero;
-                if(BoardOrigin != null)
-                {
-                    origin = new Vector3(BoardOrigin.position.x + width / 2, BoardOrigin.position.y + height / 2, BoardOrigin.position.z);
-                } else
-                {
-                    Debug.LogError("NO BOARD TO PLACE CELLS IN");
-                    return;
-                }
+                float width = r.Width;
+                float height = r.Height;
 
-                var words = board.Words;
+				Vector3 origin = new Vector3(BoardOrigin.position.x - width / 2, BoardOrigin.position.y + height / 2, 0);
+				BoardOrigin.sizeDelta = new Vector2(width * board.Width, height * board.Height);
 
-                for(int i = 0; i < words.Count; ++i)
-                {
-                    Coordinates start = words[i].Start, end = words[i].End;
-                    // place cells on screen.
-                    // parent to board origin.
-                    if (words[i].IsHorizontal)
-                    {
-                        int a = 0;
-                        for (int x = start.x; x <= end.x; ++x, ++a)
-                        {
-                            
-                        }
-                    }
-                    else
-                    {
-                        int a = 0;
-                        for (int y = start.y; y <= end.y; ++y, ++a)
-                        {
-                            
-                        }
-                    }
-                }
+				for(int j = 0; j < board.Height; ++j)
+				{
+					for(int i = 0; i < board.Width; ++i)
+					{
+						if(board[i,j] == Cell.Empty)
+						{
+							continue;
+						}
+						var curr_cell = Instantiate(CellPrefab);
+						curr_cell.transform.position = origin;
+						curr_cell.transform.SetParent(BoardOrigin);
+						curr_cell.GetComponent<GameCell>().Place(new Coordinates(i, j));
+						(curr_cell.transform as RectTransform).localPosition = new Vector2((i + 1) * width, -(j + 1) * height);
+					}
+				}
             }
         }
     }
@@ -108,7 +100,7 @@ public class GameManager : MonoBehaviour {
         get { return board.Solved; }
     }
 
-    bool Set(Coordinates coords, char c)
+    public bool Set(Coordinates coords, char c)
     {
         return board.Set(coords, c);
     }

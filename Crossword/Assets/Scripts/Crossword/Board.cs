@@ -59,7 +59,7 @@ namespace Crossword
 
     public class Cell
     {
-        List<int> solutionTo;
+        List<int> solutionTo = null;
 
         public bool HasWord
         {
@@ -81,6 +81,11 @@ namespace Crossword
         {
             get { return solutionTo; }
         }
+
+		public int FirstSolution
+		{
+			get { return Solutions.Count > 0 ? Solutions[0] : -1; }
+		}
 
         public static char Empty {
             get { return ' '; }
@@ -146,9 +151,7 @@ namespace Crossword
                 char ret = Cell.Empty;
 				if(board[j * width + i].HasWord)
 				{
-					var solution = board[j * width + i].Solutions;
-					int index = solution[0];
-					ret = words[index].Word[new Coordinates(i, j)];
+					ret = words[board[j * width +i].FirstSolution].Word[new Coordinates(i, j)];
 				}
 				return ret;
 			}
