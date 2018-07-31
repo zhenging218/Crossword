@@ -1,0 +1,25 @@
+board has 10 words
+0: abac(4) occupies 6, 9 to 6, 12
+1: abluvion(8) occupies 6, 9 to 13, 9
+2: abjunctive(10) occupies 1, 12 to 10, 12
+3: abolishable(11) occupies 8, 0 to 8, 10
+4: abapical(8) occupies 11, 5 to 11, 12
+5: ablutions(9) occupies 13, 2 to 13, 10
+6: ablepharia(10) occupies 1, 3 to 1, 12
+7: abb(3) occupies 10, 6 to 12, 6
+8: abel(4) occupies 8, 0 to 11, 0
+9: abbreviate(10) occupies 2, 4 to 11, 4
+| || || || || || || || ||a||b||e||l|| || |
+| || || || || || || || ||b|| || || || || |
+| || || || || || || || ||o|| || || || ||a|
+| ||a|| || || || || || ||l|| || || || ||b|
+| ||b||a||b||b||r||e||v||i||a||t||e|| ||l|
+| ||l|| || || || || || ||s|| || ||a|| ||u|
+| ||e|| || || || || || ||h|| ||a||b||b||t|
+| ||p|| || || || || || ||a|| || ||a|| ||i|
+| ||h|| || || || || || ||b|| || ||p|| ||o|
+| ||a|| || || || ||a||b||l||u||v||i||o||n|
+| ||r|| || || || ||b|| ||e|| || ||c|| ||s|
+| ||i|| || || || ||a|| || || || ||a|| || |
+| ||a||b||j||u||n||c||t||i||v||e||l|| || |
+| || || || || || || || || || || || || || |
