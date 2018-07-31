@@ -31,11 +31,10 @@ namespace Crossword
 		static Pair<WordBlock, int> PlaceVertical(ref List<WordBlock> data, Alphaword word, int i, int width, int height)
 		{
 			List<Pair<WordBlock, int>> results = new List<Pair<WordBlock, int>>();
-			bool valid = true;
-			for (int l = 0; l < data[i].Length && valid; ++l)
+			for (int l = 0; l < data[i].Length; ++l)
 			{
 				Coordinates cell = data[i][l];
-                for (int j = 0; j < word.Length && valid; ++j)
+                for (int j = 0; j < word.Length; ++j)
 				{
                     if (word.word[j] != data[i][cell])
                     {
@@ -52,7 +51,7 @@ namespace Crossword
 						// because word is pushed "upwards" to test whole word,
 						// if word leaves top of board then it will definitely be
 						// invalid for the rest.
-						valid = false;
+						break;
 					}
 					else if (!v_back_ok)
 					{
@@ -133,11 +132,10 @@ namespace Crossword
 		static Pair<WordBlock, int> PlaceHorizontal(ref List<WordBlock> data, Alphaword word, int i, int width, int height)
 		{
 			List<Pair<WordBlock, int>> results = new List<Pair<WordBlock, int>>();
-			bool valid = true;
-			for (int l = 0; l < data[i].Length && valid; ++l)
+			for (int l = 0; l < data[i].Length; ++l)
 			{
 				Coordinates cell = data[i][l];
-				for (int j = 0; j < word.Length && valid; ++j)
+				for (int j = 0; j < word.Length; ++j)
 				{
                     if(word.word[j] != data[i][cell])
                     {
@@ -154,7 +152,7 @@ namespace Crossword
 						// because word is pushed "leftwards" to test whole word,
 						// if word leaves top of board then it will definitely be
 						// invalid for the rest.
-						valid = false;
+						break;
 					}
 					else if (!h_back_ok)
 					{

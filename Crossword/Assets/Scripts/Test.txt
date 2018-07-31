@@ -1,28 +1,27 @@
 board has 10 words
-0: aberrator(9) occupies 5, 7 to 5, 15
-1: abbadide(8) occupies 2, 7 to 9, 7
-2: abaised(7) occupies 0, 9 to 6, 9
-3: aargh(5) occupies 5, 12 to 9, 12
-4: abacinate(9) occupies 0, 3 to 0, 11
-5: aaronitic(9) occupies 7, 0 to 7, 8
-6: abjudication(12) occupies 0, 0 to 11, 0
-7: abiezer(7) occupies 9, 4 to 9, 10
-8: abannition(10) occupies 2, 7 to 2, 16
-9: abirritated(11) occupies 4, 2 to 14, 2
-|a|b|j|u|d|i|c|a|t|i|o|n| | | | | |
-| | | | | | | |a| | | | | | | | | |
-| | | | |a|b|i|r|r|i|t|a|t|e|d| | |
-|a| | | | | | |o| | | | | | | | | |
-|b| | | | | | |n| |a| | | | | | | |
-|a| | | | | | |i| |b| | | | | | | |
-|c| | | | | | |t| |i| | | | | | | |
-|i| |a|b|b|a|d|i|d|e| | | | | | | |
-|n| |b| | |b| |c| |z| | | | | | | |
-|a|b|a|i|s|e|d| | |e| | | | | | | |
-|t| |n| | |r| | | |r| | | | | | | |
-|e| |n| | |r| | | | | | | | | | | |
-| | |i| | |a|a|r|g|h| | | | | | | |
-| | |t| | |t| | | | | | | | | | | |
-| | |i| | |o| | | | | | | | | | | |
-| | |o| | |r| | | | | | | | | | | |
-| | |n| | | | | | | | | | | | | | |
+0: abbevillian(11) occupies 0, 0 to 0, 10
+1: abede(5) occupies 0, 0 to 4, 0
+2: ablend(6) occupies 0, 9 to 5, 9
+3: abastard(8) occupies 5, 2 to 5, 9
+4: abaisse(7) occupies 3, 3 to 3, 9
+5: abature(7) occupies 5, 2 to 11, 2
+6: abhorrently(11) occupies 5, 4 to 15, 4
+7: abigailship(11) occupies 5, 7 to 15, 7
+8: abluent(7) occupies 9, 7 to 9, 13
+9: abeyances(9) occupies 7, 11 to 15, 11
+|a|b|e|d|e| | | | | | | | | | | |
+|b| | | | | | | | | | | | | | | |
+|b| | | | |a|b|a|t|u|r|e| | | | |
+|e| | |a| |b| | | | | | | | | | |
+|v| | |b| |a|b|h|o|r|r|e|n|t|l|y|
+|i| | |a| |s| | | | | | | | | | |
+|l| | |i| |t| | | | | | | | | | |
+|l| | |s| |a|b|i|g|a|i|l|s|h|i|p|
+|i| | |s| |r| | | |b| | | | | | |
+|a|b|l|e|n|d| | | |l| | | | | | |
+|n| | | | | | | | |u| | | | | | |
+| | | | | | | |a|b|e|y|a|n|c|e|s|
+| | | | | | | | | |n| | | | | | |
+| | | | | | | | | |t| | | | | | |
+| | | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | | |
