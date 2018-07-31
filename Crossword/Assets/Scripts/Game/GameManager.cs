@@ -11,19 +11,77 @@ public class GameManager : MonoBehaviour {
         get { return instance; }
     }
 
-    Board board;
+    [Range(2, 10)]
+    public int TotalWords = 2;
+    public char StartWith = 'a';
 
-    public int width, height;
+    Board board = null;
 
+    public GameObject CellPrefab;
+    public RectTransform BoardOrigin;
 
     void Awake()
     {
         if(instance && instance != this)
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
+            
         } else
         {
             instance = this;
+            var db = WordDatabase.Load();
+            if (db != null)
+            {
+                var indices = db.GetRandomWordList(StartWith, TotalWords);
+                List<Alphaword> awords = new List<Alphaword>();
+                for (int i = 0; i < indices.Count; ++i)
+                {
+                    awords.Add(db['a', indices[i]]);
+                }
+                board = LevelGenerator.Generate(awords);
+                var r = CellPrefab.transform as RectTransform;
+                if(r == null)
+                {
+                    Debug.LogError("NO PROPER CELL PREFAB");
+                    return;
+                }
+                float width = r.rect.width;
+                float height = r.rect.height;
+                Vector3 origin = Vector3.zero;
+                if(BoardOrigin != null)
+                {
+                    origin = new Vector3(BoardOrigin.position.x + width / 2, BoardOrigin.position.y + height / 2, BoardOrigin.position.z);
+                } else
+                {
+                    Debug.LogError("NO BOARD TO PLACE CELLS IN");
+                    return;
+                }
+
+                var words = board.Words;
+
+                for(int i = 0; i < words.Count; ++i)
+                {
+                    Coordinates start = words[i].Start, end = words[i].End;
+                    // place cells on screen.
+                    // parent to board origin.
+                    if (words[i].IsHorizontal)
+                    {
+                        int a = 0;
+                        for (int x = start.x; x <= end.x; ++x, ++a)
+                        {
+                            
+                        }
+                    }
+                    else
+                    {
+                        int a = 0;
+                        for (int y = start.y; y <= end.y; ++y, ++a)
+                        {
+                            
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -35,11 +93,6 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    public void CheckAnswer(Coordinates coords, char c)
-    {
-
-    }
-
     // Use this for initialization
     void Start () {
 		
@@ -49,4 +102,14 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public bool Solved
+    {
+        get { return board.Solved; }
+    }
+
+    bool Set(Coordinates coords, char c)
+    {
+        return board.Set(coords, c);
+    }
 }

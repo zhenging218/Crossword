@@ -37,7 +37,7 @@ namespace Crossword
             }
         }
 
-        public bool Check(Coordinates coords, char c)
+        public bool Set(Coordinates coords, char c)
         {
             char mine = word[coords];
             bool ret = false;
@@ -170,17 +170,30 @@ namespace Crossword
 			}
 		}
 
-        public bool Check(Coordinates coords, char c)
+        public List<WordBlock> Words
+        {
+            get
+            {
+                List<WordBlock> ret = new List<WordBlock>();
+                for(int i = 0; i < words.Count; ++i)
+                {
+                    ret.Add(words[i].Word);
+                }
+                return ret;
+            }
+        }
+
+        public bool Set(Coordinates coords, char c)
         {
             if(board[coords.y * width + coords.x].HasWord)
             {
                 var solution = board[coords.y * width + coords.x].Solutions;
-                bool ok = words[0].Check(coords, c);
+                bool ok = words[0].Set(coords, c);
                 if (ok)
                 {
                     for (int i = 1; i < solution.Count; ++i)
                     {
-                        words[i].Check(coords, c);
+                        words[i].Set(coords, c);
                     }
                     return true;
                 }
