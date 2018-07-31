@@ -96,7 +96,7 @@ namespace Crossword
                                             near = true;
                                         }
                                     }
-                                    if (near && data[w].IsVertical)
+                                    if (near)
                                     {
                                         placeOK = false;
                                     }
@@ -198,7 +198,7 @@ namespace Crossword
                                             near = true;
                                         }
                                     }
-                                    if(near && data[w].IsHorizontal)
+                                    if(near)
                                     {
                                         placeOK = false;
                                     }
