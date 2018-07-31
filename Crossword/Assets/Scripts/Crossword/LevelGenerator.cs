@@ -260,8 +260,6 @@ namespace Crossword
 
         public static Board Generate(List<Alphaword> words, int max_tries = 1000)
         {
-			int width = 0;
-			int add = int.MaxValue;
 			if(words.Count < 2)
 			{
 				Debug.Log("no words!");
@@ -271,15 +269,11 @@ namespace Crossword
 			{
 				words.RemoveRange(10, words.Count - 10);
 			}
-			for(int i = 0; i < words.Count; ++i)
-			{
-				width = Mathf.Max(width, words[i].Length);
-				add = Mathf.Min(add, words[i].Length);
-			}
-			width += add;
-			int height = width;
+			
             List<Alphaword> sorted_words = CopyWordList(words);
             SortWordListDescending(ref sorted_words);
+			int width = sorted_words[0].Length + sorted_words[sorted_words.Count - 1].Length;
+			int height = width;
             int best_score = 0;
 			List<WordBlock> best_gen_words = null;
             var rng = new System.Random();

@@ -1,27 +1,26 @@
 board has 10 words
-0: abbevillian(11) occupies 0, 0 to 0, 10
-1: abede(5) occupies 0, 0 to 4, 0
-2: ablend(6) occupies 0, 9 to 5, 9
-3: abastard(8) occupies 5, 2 to 5, 9
-4: abaisse(7) occupies 3, 3 to 3, 9
-5: abature(7) occupies 5, 2 to 11, 2
-6: abhorrently(11) occupies 5, 4 to 15, 4
-7: abigailship(11) occupies 5, 7 to 15, 7
-8: abluent(7) occupies 9, 7 to 9, 13
-9: abeyances(9) occupies 7, 11 to 15, 11
-|a|b|e|d|e| | | | | | | | | | | |
-|b| | | | | | | | | | | | | | | |
-|b| | | | |a|b|a|t|u|r|e| | | | |
-|e| | |a| |b| | | | | | | | | | |
-|v| | |b| |a|b|h|o|r|r|e|n|t|l|y|
-|i| | |a| |s| | | | | | | | | | |
-|l| | |i| |t| | | | | | | | | | |
-|l| | |s| |a|b|i|g|a|i|l|s|h|i|p|
-|i| | |s| |r| | | |b| | | | | | |
-|a|b|l|e|n|d| | | |l| | | | | | |
-|n| | | | | | | | |u| | | | | | |
-| | | | | | | |a|b|e|y|a|n|c|e|s|
-| | | | | | | | | |n| | | | | | |
-| | | | | | | | | |t| | | | | | |
-| | | | | | | | | | | | | | | | |
-| | | | | | | | | | | | | | | | |
+0: abashless(9) occupies 5, 5 to 5, 13
+1: abapical(8) occupies 3, 5 to 10, 5
+2: aboideaux(9) occupies 5, 7 to 13, 7
+3: abjure(6) occupies 0, 11 to 5, 11
+4: abetment(8) occupies 11, 7 to 11, 14
+5: abigeat(7) occupies 3, 0 to 3, 6
+6: abodah(6) occupies 0, 9 to 5, 9
+7: abidal(6) occupies 10, 0 to 10, 5
+8: abides(6) occupies 7, 9 to 12, 9
+9: abeyancy(8) occupies 6, 0 to 13, 0
+| | | |a| | |a|b|e|y|a|n|c|y| |
+| | | |b| | | | | | |b| | | | |
+| | | |i| | | | | | |i| | | | |
+| | | |g| | | | | | |d| | | | |
+| | | |e| | | | | | |a| | | | |
+| | | |a|b|a|p|i|c|a|l| | | | |
+| | | |t| |b| | | | | | | | | |
+| | | | | |a|b|o|i|d|e|a|u|x| |
+| | | | | |s| | | | | |b| | | |
+|a|b|o|d|a|h| |a|b|i|d|e|s| | |
+| | | | | |l| | | | | |t| | | |
+|a|b|j|u|r|e| | | | | |m| | | |
+| | | | | |s| | | | | |e| | | |
+| | | | | |s| | | | | |n| | | |
+| | | | | | | | | | | |t| | | |
