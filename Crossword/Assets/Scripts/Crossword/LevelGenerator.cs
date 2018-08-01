@@ -258,11 +258,13 @@ namespace Crossword
 			return results[results.Count - 1];
 		}
 
-        public static List<WordBlock> GenerateWordBlocksOnly(List<Alphaword> words, int max_tries = 1000)
+        static Pair<List<WordBlock>, Coordinates> GenerateWordBlocksOnly(List<Alphaword> words, out int width, out int height, int max_tries = 1000)
         {
             if (words.Count < 2)
             {
                 Debug.Log("no words!");
+                width = 0;
+                height = 0;
                 return null;
             }
             if (words.Count > 10)
@@ -272,10 +274,11 @@ namespace Crossword
 
             List<Alphaword> sorted_words = CopyWordList(words);
             SortWordListDescending(ref sorted_words);
-            int width = sorted_words[0].Length + sorted_words[sorted_words.Count - 1].Length;
-            int height = width;
+            int base_width = width = sorted_words[0].Length + sorted_words[sorted_words.Count - 1].Length;
+            int base_height = height = width;
+            int base_dim = base_width * base_height;
             int best_score = 0;
-            List<WordBlock> best_gen_words = null;
+            Pair<List<WordBlock>, Coordinates> best_gen_words = null;
             var rng = new System.Random();
             for (int i = 0; i < max_tries; ++i)
             {
@@ -284,6 +287,10 @@ namespace Crossword
                 List<WordBlock> gen_words = new List<WordBlock>();
                 int curr_score = 0;
                 bool curr_tryOK = true;
+                int currWidth = 0;
+                int currHeight = 0;
+                int MinWidth = int.MaxValue;
+                int MinHeight = int.MaxValue;
                 for (int curr_word = 0; curr_word < sorted_words.Count && curr_tryOK; ++curr_word)
                 {
                     if (gen_words.Count == 0)
@@ -297,6 +304,10 @@ namespace Crossword
                         int start_y = Random.Range(0, range_y);
                         Coordinates first_start = new Coordinates(start_x, start_y);
                         Coordinates first_end = new Coordinates(first_start.x + (sorted_words[curr_word].Length - 1) * dx, (first_start.y + sorted_words[curr_word].Length - 1) * dy);
+                        currWidth = first_end.x + 1;
+                        currHeight = first_end.y + 1;
+                        MinWidth = first_start.x;
+                        MinHeight = first_start.y;
                         gen_words.Add(new WordBlock(sorted_words[curr_word], first_start, first_end));
                     }
                     else
@@ -307,6 +318,10 @@ namespace Crossword
                         if (curr_result != null)
                         {
                             gen_words.Add(curr_result.Left);
+                            currWidth = Mathf.Max(currWidth, curr_result.Left.End.x + 1);
+                            currHeight = Mathf.Max(currHeight, curr_result.Left.End.y + 1);
+                            MinWidth = Mathf.Min(MinWidth, curr_result.Left.Start.x);
+                            MinHeight = Mathf.Min(MinHeight, curr_result.Left.Start.y);
                             curr_score += curr_result.Right;
                         }
                         else
@@ -317,9 +332,22 @@ namespace Crossword
                 }
                 if (curr_tryOK)
                 {
+                    // offset to zero.
+                    for(int curr = 0; curr < gen_words.Count; ++curr)
+                    {
+                        Coordinates curr_start = gen_words[curr].Start;
+                        Coordinates curr_end = gen_words[curr].End;
+                        gen_words[curr].Place(new Coordinates(curr_start.x - MinWidth, curr_start.y - MinHeight), new Coordinates(curr_end.x - MinWidth, curr_end.y - MinHeight));
+
+                    }
+                    currWidth -= MinWidth;
+                    currHeight -= MinHeight;
+                    int curr_dim = currWidth * currHeight;
+                    // the smaller the board, the better the score.
+                    curr_score += (base_dim - curr_dim);
                     if (curr_score > best_score)
                     {
-                        best_gen_words = gen_words;
+                        best_gen_words = Pairs.MakePair(gen_words, new Coordinates(currWidth, currHeight));
                         best_score = curr_score;
                     }
                 }
@@ -330,72 +358,12 @@ namespace Crossword
 
         public static Board Generate(List<Alphaword> words, int max_tries = 1000)
         {
-			if(words.Count < 2)
-			{
-				Debug.Log("no words!");
-				return null;
-			}
-			if(words.Count > 10)
-			{
-				words.RemoveRange(10, words.Count - 10);
-			}
-			
-            List<Alphaword> sorted_words = CopyWordList(words);
-            SortWordListDescending(ref sorted_words);
-			int width = sorted_words[0].Length + sorted_words[sorted_words.Count - 1].Length;
-			int height = width;
-            int best_score = 0;
-			List<WordBlock> best_gen_words = null;
-            var rng = new System.Random();
-            for (int i = 0; i < max_tries; ++i)
-            {
-                var result = sorted_words.OrderBy(x => rng.Next());
-                sorted_words = new List<Alphaword>(result);
-                List<WordBlock> gen_words = new List<WordBlock>();
-				int curr_score = 0;
-				bool curr_tryOK = true;
-                for(int curr_word = 0; curr_word < sorted_words.Count && curr_tryOK; ++curr_word)
-                {
-                    if(gen_words.Count == 0)
-                    {
-                        // place first word
-                        int dx = Random.Range(0, 2);
-                        int dy = (dx == 0) ? 1 : 0;
-						int range_x = width - sorted_words[curr_word].Length;
-						int range_y = height - sorted_words[curr_word].Length;
-						int start_x = Random.Range(0, range_x);
-						int start_y = Random.Range(0, range_y);
-						Coordinates first_start = new Coordinates(start_x, start_y);
-						Coordinates first_end = new Coordinates(first_start.x + (sorted_words[curr_word].Length - 1) * dx, (first_start.y + sorted_words[curr_word].Length - 1) * dy);
-						gen_words.Add(new WordBlock(sorted_words[curr_word], first_start, first_end));
-                    } else
-                    {
-						// place every other word
-						// test overlap
-						var curr_result = PlaceWord(ref gen_words, sorted_words[curr_word], width, height);
-						if(curr_result != null)
-						{
-							gen_words.Add(curr_result.Left);
-							curr_score += curr_result.Right;
-						} else
-						{
-							curr_tryOK = false;
-						}
-                    }
-                }
-				if(curr_tryOK)
-				{
-					if(curr_score > best_score)
-					{
-						best_gen_words = gen_words;
-						best_score = curr_score;
-					}
-				}
-            }
+            int width = 0, height = 0;
+            var best_gen_words = GenerateWordBlocksOnly(words, out width, out height, max_tries);
 			// setup board using gen_words and return
 			if(best_gen_words != null)
 			{
-				return new Board(best_gen_words, width, height);
+				return new Board(best_gen_words.Left, best_gen_words.Right.x, best_gen_words.Right.y);
 			}
             return null;
         }

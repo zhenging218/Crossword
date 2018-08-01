@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crossword", "Crossword.csproj", "{3C83E1E1-C97C-F3C5-2AC4-E95F90393205}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crossword.Editor", "Crossword.Editor.csproj", "{F394DC91-5C52-0EA4-D99D-97FD94A9A2EF}"

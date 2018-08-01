@@ -8,14 +8,33 @@ public class GameCell : MonoBehaviour {
 
 	Coordinates coords;
 	public InputField text = null;
+    public Text celltext = null;
 	public GameCell()
 	{
 		coords = Coordinates.Zero;
 	}
 
-	public void Place(Coordinates c)
+	public void Place(Coordinates c, List<int> firstOf = null)
 	{
 		coords = c;
+
+        if (firstOf != null)
+        {
+            string index = string.Empty;
+            for (int i = 0; i < firstOf.Count; ++i)
+            {
+                index += firstOf[i].ToString();
+                if(i + 1 < firstOf.Count)
+                {
+                    index += ",";
+                }
+            }
+            celltext.text = index;
+            celltext.gameObject.SetActive(true);
+        } else
+        {
+            celltext.gameObject.SetActive(false);
+        }
 	}
 
 	void Update()
@@ -29,11 +48,12 @@ public class GameCell : MonoBehaviour {
 		}
 	}
 
-	public void OnInputEnd(string i)
+	public void OnInputEnd(InputField i)
 	{
-		if(i.Length == 1)
+		if(i.text.Length == 1)
 		{
-			GameManager.Instance.Set(coords, i[0]);
+			GameManager.Instance.Set(coords, i.text.ToLower()[0]);
+            GameManager.Instance.TrySolve();
 		}
 	}
 

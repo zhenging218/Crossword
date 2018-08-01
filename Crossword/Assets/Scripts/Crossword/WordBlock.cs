@@ -74,10 +74,14 @@ namespace Crossword
 			}
 		}
 
-		public char this[Coordinates i]
+		public char this[Coordinates i, bool debug = false]
 		{
 			get
 			{
+                if (debug)
+                {
+                    Debug.Log("start is " + start.x + ", " + start.y + " and end is " + end.x + ", " + end.y + " checking with " + i.x + ", " + i.y);
+                }
 				if(!(i.x >= start.x && i.x <= end.x && i.y >= start.y && i.y <= end.y))
 				{
                     return Cell.Empty;

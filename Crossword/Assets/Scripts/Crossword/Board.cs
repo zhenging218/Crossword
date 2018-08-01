@@ -43,7 +43,7 @@ namespace Crossword
             bool ret = false;
             if(mine == Cell.Empty)
             {
-                return false;
+                ret = false;
             }
             else if(mine == c)
             {
@@ -55,11 +55,19 @@ namespace Crossword
             }
             return ret;
         }
+
+        public void Reset()
+        {
+            for(int i = 0; i < correct.Count; ++i)
+            {
+                correct[i] = false;
+            }
+        }
     }
 
     public class Cell
     {
-        List<int> solutionTo = null;
+        List<int> solutionTo = null, firstOf = null;
 
         public bool HasWord
         {
@@ -69,17 +77,26 @@ namespace Crossword
         public Cell()
         {
             solutionTo = new List<int>();
-            solutionTo.Clear();
+            firstOf = new List<int>();
         }
 
-        public void AddSolution(int index)
+        public void AddSolution(int index, int is_first_of = -1)
         {
             solutionTo.Add(index);
+            if(is_first_of >= 0)
+            {
+                firstOf.Add(is_first_of);
+            }
         }
 
         public List<int> Solutions
         {
             get { return solutionTo; }
+        }
+
+        public List<int> FirstOf
+        {
+            get { return firstOf; }
         }
 
 		public int FirstSolution
@@ -116,17 +133,17 @@ namespace Crossword
 			{
 				Coordinates start = words[i].Word.Start;
 				Coordinates end = words[i].Word.End;
-				if(words[i].Word.IsHorizontal)
+                board[start.y * width + start.x].AddSolution(i, i);
+                if (words[i].Word.IsHorizontal)
 				{
-					int a = 0;
-					for(int x = start.x; x <= end.x; ++x, ++a)
+                    
+					for(int x = start.x + 1; x <= end.x; ++x)
 					{
 						board[start.y * width + x].AddSolution(i);
 					}
 				} else
 				{
-					int a = 0;
-					for (int y = start.y; y <= end.y; ++y, ++a)
+					for (int y = start.y + 1; y <= end.y; ++y)
 					{
 						board[y * width + start.x].AddSolution(i);
 					}
@@ -156,6 +173,15 @@ namespace Crossword
 				return ret;
 			}
 		}
+
+        public List<int> FirstOf(int i, int j)
+        {
+            if(board[j * width + i].HasWord)
+            {
+                return board[j * width + i].FirstOf;
+            }
+            return null;
+        }
 
 		public bool Solved
 		{
@@ -191,12 +217,12 @@ namespace Crossword
             if(board[coords.y * width + coords.x].HasWord)
             {
                 var solution = board[coords.y * width + coords.x].Solutions;
-                bool ok = words[0].Set(coords, c);
+                bool ok = words[solution[0]].Set(coords, c);
                 if (ok)
                 {
                     for (int i = 1; i < solution.Count; ++i)
                     {
-                        words[i].Set(coords, c);
+                        words[solution[i]].Set(coords, c);
                     }
                     return true;
                 }
@@ -204,10 +230,42 @@ namespace Crossword
             return false;
         }
 
+        public void Reset()
+        {
+            for(int i = 0; i < words.Count; ++i)
+            {
+                words[i].Reset();
+            }
+        }
+
+        public string Hints
+        {
+            get
+            {
+                string ret = string.Empty;
+                for(int i = 0; i < words.Count; ++i)
+                {
+                    ret += (words[i].Word.IsHorizontal ? "H" : "V");
+                    ret += i.ToString() + ": ";
+                    string hint = words[i].Word.Hint;
+                    if (hint.Length > 0)
+                    {
+                         ret += hint;
+                    } else
+                    {
+                        ret += words[i].Word.Word;
+                    }
+                    ret += "\n\n";
+                }
+                return ret;
+            }
+        }
+
 		public static string PrintBoard(Board b)
 		{
 			string ret = string.Empty;
 			var words = b.words;
+            ret += "board dimension is " + b.width.ToString() + ", " + b.height.ToString() + "\n";
 			ret += "board has " + words.Count.ToString() + " words\n";
 			for(int i = 0; i < words.Count; ++i)
 			{
