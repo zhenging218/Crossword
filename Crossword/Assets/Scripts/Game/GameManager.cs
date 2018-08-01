@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour {
     [Range(2, 10)]
     public int TotalWords = 2;
     public char StartWith = 'a';
-
+	public bool RandomStart = false;
     Board board = null;
 
     public GameObject CellPrefab;
@@ -59,18 +59,28 @@ public class GameManager : MonoBehaviour {
             var db = WordDatabase.Load();
             if (db != null)
             {
-                var indices = db.GetRandomWordList(StartWith, TotalWords);
-                if(indices == null)
-                {
-                    Debug.LogError("NO WORDS STARTING WITH " + StartWith + " IN DATABASE!");
-                    return;
-                }
-                List<Alphaword> awords = new List<Alphaword>();
-                for (int i = 0; i < indices.Count; ++i)
-                {
-                    awords.Add(db[StartWith, indices[i]]);
-                }
-                board = LevelGenerator.Generate(awords);
+				if (BoardGen.Instance == null)
+				{
+					if (RandomStart)
+					{
+						StartWith = (char)Random.Range('a', 'z' + 1);
+					}
+					var indices = db.GetRandomWordList(StartWith, TotalWords);
+					if (indices == null)
+					{
+						Debug.LogError("NO WORDS STARTING WITH " + StartWith + " IN DATABASE!");
+						return;
+					}
+					List<Alphaword> awords = new List<Alphaword>();
+					for (int i = 0; i < indices.Count; ++i)
+					{
+						awords.Add(db[StartWith, indices[i]]);
+					}
+					board = LevelGenerator.Generate(awords);
+				} else
+				{
+					board = BoardGen.Instance.Board;
+				}
 				var r = CellPrefab.GetComponent<GameCell>();
                 var rt = CellPrefab.transform as RectTransform;
                 if(r == null || rt == null)
@@ -86,9 +96,11 @@ public class GameManager : MonoBehaviour {
 
                 if(HintBox != null)
                 {
+					// paste hints onto hint box
                     HintBox.text = board.Hints;
                 }
                 
+				// build cells
                 cells = new List<InputField>();
 
                 for (int j = 0; j < board.Height; ++j)
@@ -101,10 +113,12 @@ public class GameManager : MonoBehaviour {
 						}
 						var curr_cell = Instantiate(CellPrefab);
 						curr_cell.transform.position = origin;
+						// put cells in the scroll view.
 						curr_cell.transform.SetParent(BoardOrigin);
                         curr_cell.GetComponent<GameCell>().Place(new Coordinates(i, j), board.FirstOf(i, j));
                         cells.Add(curr_cell.GetComponent<InputField>());
                         cells[cells.Count - 1].interactable = true;
+						// place cell at correct position based on size of cell and board coords.
 						(curr_cell.transform as RectTransform).localPosition = new Vector2((i + 1) * width, -(j + 1) * height);
 					}
 				}
@@ -218,6 +232,8 @@ public class GameManager : MonoBehaviour {
 
     public void OnGameMenuButton()
     {
+		// game menu button should pause game.
+		// any window closing should unpause (unless moving to another level).
         OnPause();
     }
 
@@ -231,6 +247,7 @@ public class GameManager : MonoBehaviour {
         return board.Set(coords, c);
     }
 
+	// if board is solved, disable all input.
     public void TrySolve()
     {
         if(board.Solved) {

@@ -14,6 +14,8 @@ public class GameCell : MonoBehaviour {
 		coords = Coordinates.Zero;
 	}
 
+	// setup game cell.
+	// remember cell coords on board and whether this cell is the first cell of any words.
 	public void Place(Coordinates c, List<int> firstOf = null)
 	{
 		coords = c;
@@ -41,6 +43,7 @@ public class GameCell : MonoBehaviour {
 	{
 		if(text != null)
 		{
+			// show input as only uppercase.
 			if(text.isFocused)
 			{
 				text.text = text.text.ToUpper();
@@ -48,6 +51,7 @@ public class GameCell : MonoBehaviour {
 		}
 	}
 
+	// only lock in input when player loses focus of cell.
 	public void OnInputEnd(InputField i)
 	{
 		if(i.text.Length == 1)

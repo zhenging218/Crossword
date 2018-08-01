@@ -9,15 +9,18 @@ namespace Crossword
 {
     public class WordDatabaseEditor : EditorWindow
     {
-        static GUIContent[] editor_contents =
-        {
+		static GUIContent[] editor_contents =
+		{
             /* 0 */ new GUIContent("Open Word List", "Opens a text file containing words to supply the database."),
             /* 1 */ new GUIContent("Has Hints", "Toggles whether the text file supplied contains hints under each word."),
             /* 2 */ new GUIContent("New word", "Adds a new word to the list."),
             /* 3 */ new GUIContent("Word:", "Word to add/edit."),
             /* 4 */ new GUIContent("Hint:", "Hint for the word."),
 			/* 5 */ new GUIContent("Clear Database", "Clear all words from the database."),
-			/* 6 */ new GUIContent("Save", "Save Changes.")
+			/* 6 */ new GUIContent("Save", "Save Changes."),
+			/* 7 */ new GUIContent("<", "Go to previous page."),
+			/* 8 */ new GUIContent(">", "Go to next page."),
+			/* 9 */ new GUIContent("Words per page", "Sets how many words to show per page.")
         };
 
         enum State
@@ -45,9 +48,10 @@ namespace Crossword
         WordDatabase db;
         Vector2 scrollPos;
         List<bool> show_alpha;
+		List<int> show_page;
         bool file_has_hint = false;
 		bool dirty = false;
-        
+		int words_per_page;
 
         [MenuItem("Word Database/Show Word Database")]
         public static void Init()
@@ -68,7 +72,14 @@ namespace Crossword
                 {
                     show_alpha.Add(false);
                 }
-                file_has_hint = false;
+				show_page = new List<int>();
+				for(int i = 0; i <= ('z' - 'a'); ++i)
+				{
+					show_page.Add(0);
+				}
+				words_per_page = 10;
+				
+				file_has_hint = false;
             }
         }
 
@@ -85,13 +96,8 @@ namespace Crossword
 
 		void OnDestroy()
 		{
-			if(dirty)
-			{
-				if(EditorUtility.DisplayDialog("Confirm destructive action", "There are unsaved changes. Save before exit?", "Yes", "No"))
-				{
-					AssetDatabase.SaveAssets();
-				}
-			}
+			EditorUtility.SetDirty(db);
+			AssetDatabase.SaveAssets();
 		}
 
 		void LoadDatabase()
@@ -125,7 +131,8 @@ namespace Crossword
 
         void DisplayWordList()
         {
-            EditorGUILayout.BeginVertical(GUILayout.Width(250));
+			var center_word = new GUIStyle(GUI.skin.label) { alignment = TextAnchor.MiddleCenter };
+			EditorGUILayout.BeginVertical(GUILayout.Width(250));
             EditorGUILayout.Space();
 			if(GUILayout.Button(editor_contents[5], GUILayout.ExpandWidth(true))) {
 				if(EditorUtility.DisplayDialog("Confirm destructive action", "Are you sure you want to clear all words from the database? It cannot be undone.", "Yes", "No"))
@@ -137,19 +144,46 @@ namespace Crossword
 					return;
 				}
 			}
-            scrollPos = EditorGUILayout.BeginScrollView(scrollPos, "box", GUILayout.ExpandHeight(true));
-            for(char c = 'a'; c <= 'z'; ++c)
+			words_per_page = EditorGUILayout.IntSlider(editor_contents[9], words_per_page, 1, 20, GUILayout.ExpandWidth(true));
+			EditorGUILayout.Space();
+			scrollPos = EditorGUILayout.BeginScrollView(scrollPos, "box", GUILayout.ExpandHeight(true));
+			for (char c = 'a'; c <= 'z'; ++c)
             {
                 // Alphabet area (of current alphabet c)
                 var curr_list = db[c];
                 if (curr_list.Count > 0)
                 {
-                    show_alpha[c - 'a'] = EditorGUILayout.Foldout(show_alpha[c - 'a'], char.ToUpper(c).ToString());
+                    show_alpha[c - 'a'] = EditorGUILayout.Foldout(show_alpha[c - 'a'], char.ToUpper(c).ToString() + " (" + curr_list.Count.ToString() + " word" + ((curr_list.Count == 1) ? "" : "s") + ")");
                     if (show_alpha[c - 'a'])
                     {
                         // word list area (of words starting with current alphabet c)
-                        ++EditorGUI.indentLevel;
-                        for (int i = 0; i < curr_list.Count; ++i)
+						EditorGUILayout.BeginHorizontal();
+						if(show_page[c - 'a'] > 0)
+						{
+							// enable prev page button
+							if(GUILayout.Button(editor_contents[7], GUILayout.Width(25)))
+							{
+								show_page[c - 'a'] = show_page[c - 'a'] - 1;
+							}
+						} else
+						{
+							EditorGUILayout.LabelField(editor_contents[7], "box", GUILayout.Width(25));
+						}
+						EditorGUILayout.LabelField("Page " + (show_page[c - 'a'] + 1).ToString(), center_word, GUILayout.ExpandWidth(true));
+						if((show_page[c - 'a'] + 1) * words_per_page < curr_list.Count)
+						{
+							// enable next page button
+							if (GUILayout.Button(editor_contents[8], GUILayout.Width(25)))
+							{
+								show_page[c - 'a'] = show_page[c - 'a'] + 1;
+							}
+						} else
+						{
+							EditorGUILayout.LabelField(editor_contents[8], "box", GUILayout.Width(25));
+						}
+						EditorGUILayout.EndHorizontal();
+						// show only some words and let user flip through pages to prevent lag.
+						for (int i = show_page[c - 'a'] * words_per_page; i < ((show_page[c - 'a'] + 1) * words_per_page) && i < curr_list.Count; ++i)
                         {
                             EditorGUILayout.BeginHorizontal();
                             if (GUILayout.Button(curr_list[i].word, GUILayout.ExpandWidth(true)))
@@ -169,7 +203,6 @@ namespace Crossword
                             }
                             EditorGUILayout.EndHorizontal();
                         }
-                        --EditorGUI.indentLevel;
                         // end word list area
                     }
                 } else
@@ -182,7 +215,7 @@ namespace Crossword
             EditorGUILayout.EndScrollView();
             EditorGUILayout.Space();
             EditorGUILayout.BeginHorizontal(GUILayout.ExpandWidth(true));
-            EditorGUILayout.LabelField("Total words: " + db.Size.ToString() + "/1000");
+            EditorGUILayout.LabelField("Total words: " + db.Size.ToString());
             EditorGUILayout.Space();
             if(GUILayout.Button(editor_contents[2]))
             {
@@ -292,7 +325,7 @@ namespace Crossword
 					long total_bytes = src.Length;
 					long curr_bytes = 0;
 					int old_size = db.Size;
-					while (!ifs.EndOfStream && db.Size < 1000)
+					while (!ifs.EndOfStream)
 					{
 						string curr = ifs.ReadLine();
 						if(curr.Length < 2)

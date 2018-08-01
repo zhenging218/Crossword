@@ -5,7 +5,9 @@ Crossword game in Unity for a programming test.
 Current progress:
 Word List Database and Editing: DONE
 Crossword generation: DONE
-Game Interface: WIP
+Game Interface: DONE
+
+Build of the game can be found in the Build folder. Download all files in the build folder in order for the executable to be run.
 
 Algorithm used for crossword generation:
 1. Pick one word as the starting word and place it on the board. Vertical or Horizontal orientation is randomized.

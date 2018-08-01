@@ -29,10 +29,6 @@ MonoBehaviour:
       hint: 
     - word: aals
       hint: 
-    - word: aam
-      hint: 
-    - word: aani
-      hint: 
     - word: aardvark
       hint: 
     - word: aardvarks
@@ -43,21 +39,9 @@ MonoBehaviour:
       hint: 
     - word: aargh
       hint: 
-    - word: aaron
-      hint: 
-    - word: aaronic
-      hint: 
-    - word: aaronical
-      hint: 
-    - word: aaronite
-      hint: 
-    - word: aaronitic
-      hint: 
     - word: aarrgh
       hint: 
     - word: aarrghh
-      hint: 
-    - word: aaru
       hint: 
     - word: aas
       hint: 
@@ -65,13 +49,7 @@ MonoBehaviour:
       hint: 
     - word: aasvogels
       hint: 
-    - word: ab
-      hint: 
     - word: aba
-      hint: 
-    - word: ababdeh
-      hint: 
-    - word: ababua
       hint: 
     - word: abac
       hint: 
@@ -79,29 +57,11 @@ MonoBehaviour:
       hint: 
     - word: abacas
       hint: 
-    - word: abacate
-      hint: 
-    - word: abacaxi
-      hint: 
-    - word: abacay
-      hint: 
     - word: abaci
-      hint: 
-    - word: abacinate
-      hint: 
-    - word: abacination
-      hint: 
-    - word: abacisci
-      hint: 
-    - word: abaciscus
-      hint: 
-    - word: abacist
       hint: 
     - word: aback
       hint: 
-    - word: abacli
-      hint: 
-    - word: abacot
+    - word: abacs
       hint: 
     - word: abacterial
       hint: 
@@ -109,63 +69,23 @@ MonoBehaviour:
       hint: 
     - word: abactinally
       hint: 
-    - word: abaction
-      hint: 
     - word: abactor
       hint: 
-    - word: abaculi
-      hint: 
-    - word: abaculus
+    - word: abactors
       hint: 
     - word: abacus
       hint: 
     - word: abacuses
       hint: 
-    - word: abada
-      hint: 
-    - word: abaddon
-      hint: 
-    - word: abadejo
-      hint: 
-    - word: abadengo
-      hint: 
-    - word: abadia
-      hint: 
-    - word: abadite
-      hint: 
-    - word: abaff
-      hint: 
     - word: abaft
-      hint: 
-    - word: abaisance
-      hint: 
-    - word: abaised
-      hint: 
-    - word: abaiser
-      hint: 
-    - word: abaisse
-      hint: 
-    - word: abaissed
       hint: 
     - word: abaka
       hint: 
     - word: abakas
       hint: 
-    - word: abalation
-      hint: 
-    - word: abalienate
-      hint: 
-    - word: abalienated
-      hint: 
-    - word: abalienating
-      hint: 
-    - word: abalienation
-      hint: 
     - word: abalone
       hint: 
     - word: abalones
-      hint: 
-    - word: abama
       hint: 
     - word: abamp
       hint: 
@@ -177,15 +97,19 @@ MonoBehaviour:
       hint: 
     - word: aband
       hint: 
-    - word: abandon
+    - word: abanded
       hint: 
-    - word: abandonable
+    - word: abanding
+      hint: 
+    - word: abandon
       hint: 
     - word: abandoned
       hint: 
     - word: abandonedly
       hint: 
     - word: abandonee
+      hint: 
+    - word: abandonees
       hint: 
     - word: abandoner
       hint: 
@@ -199,33 +123,9 @@ MonoBehaviour:
       hint: 
     - word: abandons
       hint: 
-    - word: abandum
-      hint: 
-    - word: abanet
-      hint: 
-    - word: abanga
-      hint: 
-    - word: abanic
-      hint: 
-    - word: abannition
-      hint: 
-    - word: abantes
+    - word: abands
       hint: 
     - word: abapical
-      hint: 
-    - word: abaptiston
-      hint: 
-    - word: abaptistum
-      hint: 
-    - word: abarambo
-      hint: 
-    - word: abaris
-      hint: 
-    - word: abarthrosis
-      hint: 
-    - word: abarticular
-      hint: 
-    - word: abarticulation
       hint: 
     - word: abas
       hint: 
@@ -234,8 +134,6 @@ MonoBehaviour:
     - word: abased
       hint: 
     - word: abasedly
-      hint: 
-    - word: abasedness
       hint: 
     - word: abasement
       hint: 
@@ -247,23 +145,17 @@ MonoBehaviour:
       hint: 
     - word: abases
       hint: 
-    - word: abasgi
-      hint: 
     - word: abash
       hint: 
     - word: abashed
       hint: 
     - word: abashedly
       hint: 
-    - word: abashedness
-      hint: 
     - word: abashes
       hint: 
     - word: abashing
       hint: 
     - word: abashless
-      hint: 
-    - word: abashlessly
       hint: 
     - word: abashment
       hint: 
@@ -273,27 +165,11 @@ MonoBehaviour:
       hint: 
     - word: abasias
       hint: 
-    - word: abasic
-      hint: 
     - word: abasing
-      hint: 
-    - word: abasio
       hint: 
     - word: abask
       hint: 
-    - word: abassi
-      hint: 
-    - word: abassin
-      hint: 
-    - word: abastard
-      hint: 
-    - word: abastardize
-      hint: 
-    - word: abastral
-      hint: 
     - word: abatable
-      hint: 
-    - word: abatage
       hint: 
     - word: abate
       hint: 
@@ -309,31 +185,17 @@ MonoBehaviour:
       hint: 
     - word: abates
       hint: 
-    - word: abatic
-      hint: 
     - word: abating
       hint: 
     - word: abatis
       hint: 
-    - word: abatised
-      hint: 
     - word: abatises
-      hint: 
-    - word: abatjour
-      hint: 
-    - word: abatjours
-      hint: 
-    - word: abaton
       hint: 
     - word: abator
       hint: 
     - word: abators
       hint: 
-    - word: abattage
-      hint: 
     - word: abattis
-      hint: 
-    - word: abattised
       hint: 
     - word: abattises
       hint: 
@@ -343,1039 +205,5037 @@ MonoBehaviour:
       hint: 
     - word: abattu
       hint: 
-    - word: abattue
-      hint: 
-    - word: abatua
-      hint: 
     - word: abature
       hint: 
-    - word: abaue
-      hint: 
-    - word: abave
+    - word: abatures
       hint: 
     - word: abaxial
       hint: 
     - word: abaxile
       hint: 
-    - word: abay
-      hint: 
-    - word: abayah
-      hint: 
-    - word: abaze
-      hint: 
-    - word: abb
-      hint: 
-    - word: abba
-      hint: 
-    - word: abbacies
-      hint: 
-    - word: abbacomes
-      hint: 
-    - word: abbacy
-      hint: 
-    - word: abbadide
-      hint: 
-    - word: abbandono
-      hint: 
-    - word: abbas
-      hint: 
-    - word: abbasi
-      hint: 
-    - word: abbasid
-      hint: 
-    - word: abbassi
-      hint: 
-    - word: abbasside
-      hint: 
-    - word: abbate
-      hint: 
-    - word: abbatial
-      hint: 
-    - word: abbatical
-      hint: 
-    - word: abbatie
-      hint: 
-    - word: abbaye
-      hint: 
-    - word: abbe
-      hint: 
-    - word: abbes
-      hint: 
-    - word: abbess
-      hint: 
-    - word: abbesses
-      hint: 
-    - word: abbest
-      hint: 
-    - word: abbevillian
-      hint: 
-    - word: abbey
-      hint: 
-    - word: abbeys
-      hint: 
-    - word: abbeystead
-      hint: 
-    - word: abbeystede
-      hint: 
-    - word: abbie
-      hint: 
-    - word: abboccato
-      hint: 
-    - word: abbogada
-      hint: 
-    - word: abbot
-      hint: 
-    - word: abbotcies
-      hint: 
-    - word: abbotcy
-      hint: 
-    - word: abbotnullius
-      hint: 
-    - word: abbotric
-      hint: 
-    - word: abbots
-      hint: 
-    - word: abbotship
-      hint: 
-    - word: abbotships
-      hint: 
-    - word: abbott
-      hint: 
-    - word: abbozzo
-      hint: 
-    - word: abbr
-      hint: 
-    - word: abbrev
-      hint: 
-    - word: abbreviatable
-      hint: 
-    - word: abbreviate
-      hint: 
-    - word: abbreviated
-      hint: 
-    - word: abbreviately
-      hint: 
-    - word: abbreviates
-      hint: 
-    - word: abbreviating
-      hint: 
-    - word: abbreviation
-      hint: 
-    - word: abbreviations
-      hint: 
-    - word: abbreviator
-      hint: 
-    - word: abbreviators
-      hint: 
-    - word: abbreviatory
-      hint: 
-    - word: abbreviature
-      hint: 
-    - word: abbroachment
-      hint: 
-    - word: abby
-      hint: 
-    - word: abc
-      hint: 
-    - word: abcess
-      hint: 
-    - word: abcissa
-      hint: 
-    - word: abcoulomb
-      hint: 
-    - word: abd
-      hint: 
-    - word: abdal
-      hint: 
-    - word: abdali
-      hint: 
-    - word: abdaria
-      hint: 
-    - word: abdat
-      hint: 
-    - word: abderian
-      hint: 
-    - word: abderite
-      hint: 
-    - word: abdest
-      hint: 
-    - word: abdicable
-      hint: 
-    - word: abdicant
-      hint: 
-    - word: abdicate
-      hint: 
-    - word: abdicated
-      hint: 
-    - word: abdicates
-      hint: 
-    - word: abdicating
-      hint: 
-    - word: abdication
-      hint: 
-    - word: abdications
-      hint: 
-    - word: abdicative
-      hint: 
-    - word: abdicator
-      hint: 
-    - word: abdiel
-      hint: 
-    - word: abditive
-      hint: 
-    - word: abditory
-      hint: 
-    - word: abdom
-      hint: 
-    - word: abdomen
-      hint: 
-    - word: abdomens
-      hint: 
-    - word: abdomina
-      hint: 
-    - word: abdominal
-      hint: 
-    - word: abdominales
-      hint: 
-    - word: abdominalia
-      hint: 
-    - word: abdominalian
-      hint: 
-    - word: abdominally
-      hint: 
-    - word: abdominals
-      hint: 
-    - word: abdominoanterior
-      hint: 
-    - word: abdominocardiac
-      hint: 
-    - word: abdominocentesis
-      hint: 
-    - word: abdominocystic
-      hint: 
-    - word: abdominogenital
-      hint: 
-    - word: abdominohysterectomy
-      hint: 
-    - word: abdominohysterotomy
-      hint: 
-    - word: abdominoposterior
-      hint: 
-    - word: abdominoscope
-      hint: 
-    - word: abdominoscopy
-      hint: 
-    - word: abdominothoracic
-      hint: 
-    - word: abdominous
-      hint: 
-    - word: abdominovaginal
-      hint: 
-    - word: abdominovesical
-      hint: 
-    - word: abduce
-      hint: 
-    - word: abduced
-      hint: 
-    - word: abducens
-      hint: 
-    - word: abducent
-      hint: 
-    - word: abducentes
-      hint: 
-    - word: abduces
-      hint: 
-    - word: abducing
-      hint: 
-    - word: abduct
-      hint: 
-    - word: abducted
-      hint: 
-    - word: abducting
-      hint: 
-    - word: abduction
-      hint: 
-    - word: abductions
-      hint: 
-    - word: abductor
-      hint: 
-    - word: abductores
-      hint: 
-    - word: abductors
-      hint: 
-    - word: abducts
-      hint: 
-    - word: abe
-      hint: 
-    - word: abeam
-      hint: 
-    - word: abear
-      hint: 
-    - word: abearance
-      hint: 
-    - word: abecedaire
-      hint: 
-    - word: abecedaria
-      hint: 
-    - word: abecedarian
-      hint: 
-    - word: abecedarians
-      hint: 
-    - word: abecedaries
-      hint: 
-    - word: abecedarium
-      hint: 
-    - word: abecedarius
-      hint: 
-    - word: abecedary
-      hint: 
-    - word: abed
-      hint: 
-    - word: abede
-      hint: 
-    - word: abedge
-      hint: 
-    - word: abegge
-      hint: 
-    - word: abeigh
-      hint: 
-    - word: abel
-      hint: 
-    - word: abele
-      hint: 
-    - word: abeles
-      hint: 
-    - word: abelia
-      hint: 
-    - word: abelian
-      hint: 
-    - word: abelicea
-      hint: 
-    - word: abelite
-      hint: 
-    - word: abelmoschus
-      hint: 
-    - word: abelmosk
-      hint: 
-    - word: abelmosks
-      hint: 
-    - word: abelmusk
-      hint: 
-    - word: abelonian
-      hint: 
-    - word: abeltree
-      hint: 
-    - word: abencerrages
-      hint: 
-    - word: abend
-      hint: 
-    - word: abends
-      hint: 
-    - word: abenteric
-      hint: 
-    - word: abepithymia
-      hint: 
-    - word: aberdavine
-      hint: 
-    - word: aberdeen
-      hint: 
-    - word: aberdevine
-      hint: 
-    - word: aberdonian
-      hint: 
-    - word: aberduvine
-      hint: 
-    - word: aberia
-      hint: 
-    - word: abernethy
-      hint: 
-    - word: aberr
-      hint: 
-    - word: aberrance
-      hint: 
-    - word: aberrancies
-      hint: 
-    - word: aberrancy
-      hint: 
-    - word: aberrant
-      hint: 
-    - word: aberrantly
-      hint: 
-    - word: aberrants
-      hint: 
-    - word: aberrate
-      hint: 
-    - word: aberrated
-      hint: 
-    - word: aberrating
-      hint: 
-    - word: aberration
-      hint: 
-    - word: aberrational
-      hint: 
-    - word: aberrations
-      hint: 
-    - word: aberrative
-      hint: 
-    - word: aberrator
-      hint: 
-    - word: aberrometer
-      hint: 
-    - word: aberroscope
-      hint: 
-    - word: aberuncate
-      hint: 
-    - word: aberuncator
-      hint: 
-    - word: abesse
-      hint: 
-    - word: abessive
-      hint: 
-    - word: abet
-      hint: 
-    - word: abetment
-      hint: 
-    - word: abetments
-      hint: 
-    - word: abets
-      hint: 
-    - word: abettal
-      hint: 
-    - word: abettals
-      hint: 
-    - word: abetted
-      hint: 
-    - word: abetter
-      hint: 
-    - word: abetters
-      hint: 
-    - word: abetting
-      hint: 
-    - word: abettor
-      hint: 
-    - word: abettors
-      hint: 
-    - word: abevacuation
-      hint: 
-    - word: abey
-      hint: 
-    - word: abeyance
-      hint: 
-    - word: abeyances
-      hint: 
-    - word: abeyancies
-      hint: 
-    - word: abeyancy
-      hint: 
-    - word: abeyant
-      hint: 
-    - word: abfarad
-      hint: 
-    - word: abfarads
-      hint: 
-    - word: abhenries
-      hint: 
-    - word: abhenry
-      hint: 
-    - word: abhenrys
-      hint: 
-    - word: abhinaya
-      hint: 
-    - word: abhiseka
-      hint: 
-    - word: abhominable
-      hint: 
-    - word: abhor
-      hint: 
-    - word: abhorred
-      hint: 
-    - word: abhorrence
-      hint: 
-    - word: abhorrences
-      hint: 
-    - word: abhorrency
-      hint: 
-    - word: abhorrent
-      hint: 
-    - word: abhorrently
-      hint: 
-    - word: abhorrer
-      hint: 
-    - word: abhorrers
-      hint: 
-    - word: abhorrible
-      hint: 
-    - word: abhorring
-      hint: 
-    - word: abhors
-      hint: 
-    - word: abhorson
-      hint: 
-    - word: abib
-      hint: 
-    - word: abichite
-      hint: 
-    - word: abidal
-      hint: 
-    - word: abidance
-      hint: 
-    - word: abidances
-      hint: 
-    - word: abidden
-      hint: 
-    - word: abide
-      hint: 
-    - word: abided
-      hint: 
-    - word: abider
-      hint: 
-    - word: abiders
-      hint: 
-    - word: abides
-      hint: 
-    - word: abidi
-      hint: 
-    - word: abiding
-      hint: 
-    - word: abidingly
-      hint: 
-    - word: abidingness
-      hint: 
-    - word: abie
-      hint: 
-    - word: abiegh
-      hint: 
-    - word: abience
-      hint: 
-    - word: abient
-      hint: 
-    - word: abies
-      hint: 
-    - word: abietate
-      hint: 
-    - word: abietene
-      hint: 
-    - word: abietic
-      hint: 
-    - word: abietin
-      hint: 
-    - word: abietineae
-      hint: 
-    - word: abietineous
-      hint: 
-    - word: abietinic
-      hint: 
-    - word: abietite
-      hint: 
-    - word: abiezer
-      hint: 
-    - word: abigail
-      hint: 
-    - word: abigails
-      hint: 
-    - word: abigailship
-      hint: 
-    - word: abigeat
-      hint: 
-    - word: abigei
-      hint: 
-    - word: abigeus
-      hint: 
-    - word: abilao
-      hint: 
-    - word: abilene
-      hint: 
-    - word: abiliment
-      hint: 
-    - word: abilitable
-      hint: 
-    - word: abilities
-      hint: 
-    - word: ability
-      hint: 
-    - word: abilla
-      hint: 
-    - word: abilo
-      hint: 
-    - word: abime
-      hint: 
-    - word: abintestate
-      hint: 
-    - word: abiogeneses
-      hint: 
-    - word: abiogenesis
-      hint: 
-    - word: abiogenesist
-      hint: 
-    - word: abiogenetic
-      hint: 
-    - word: abiogenetical
-      hint: 
-    - word: abiogenetically
-      hint: 
-    - word: abiogenist
-      hint: 
-    - word: abiogenous
-      hint: 
-    - word: abiogeny
-      hint: 
-    - word: abiological
-      hint: 
-    - word: abiologically
-      hint: 
-    - word: abiology
-      hint: 
-    - word: abioses
-      hint: 
-    - word: abiosis
-      hint: 
-    - word: abiotic
-      hint: 
-    - word: abiotical
-      hint: 
-    - word: abiotically
-      hint: 
-    - word: abiotrophic
-      hint: 
-    - word: abiotrophy
-      hint: 
-    - word: abipon
-      hint: 
-    - word: abir
-      hint: 
-    - word: abirritant
-      hint: 
-    - word: abirritate
-      hint: 
-    - word: abirritated
-      hint: 
-    - word: abirritating
-      hint: 
-    - word: abirritation
-      hint: 
-    - word: abirritative
-      hint: 
-    - word: abiston
-      hint: 
-    - word: abit
-      hint: 
-    - word: abitibi
-      hint: 
-    - word: abiuret
-      hint: 
-    - word: abject
-      hint: 
-    - word: abjectedness
-      hint: 
-    - word: abjection
-      hint: 
-    - word: abjections
-      hint: 
-    - word: abjective
-      hint: 
-    - word: abjectly
-      hint: 
-    - word: abjectness
-      hint: 
-    - word: abjoint
-      hint: 
-    - word: abjudge
-      hint: 
-    - word: abjudged
-      hint: 
-    - word: abjudging
-      hint: 
-    - word: abjudicate
-      hint: 
-    - word: abjudicated
-      hint: 
-    - word: abjudicating
-      hint: 
-    - word: abjudication
-      hint: 
-    - word: abjudicator
-      hint: 
-    - word: abjugate
-      hint: 
-    - word: abjunct
-      hint: 
-    - word: abjunction
-      hint: 
-    - word: abjunctive
-      hint: 
-    - word: abjuration
-      hint: 
-    - word: abjurations
-      hint: 
-    - word: abjuratory
-      hint: 
-    - word: abjure
-      hint: 
-    - word: abjured
-      hint: 
-    - word: abjurement
-      hint: 
-    - word: abjurer
-      hint: 
-    - word: abjurers
-      hint: 
-    - word: abjures
-      hint: 
-    - word: abjuring
-      hint: 
-    - word: abkar
-      hint: 
-    - word: abkari
-      hint: 
-    - word: abkary
-      hint: 
-    - word: abkhas
-      hint: 
-    - word: abkhasian
-      hint: 
-    - word: abl
-      hint: 
-    - word: ablach
-      hint: 
-    - word: ablactate
-      hint: 
-    - word: ablactated
-      hint: 
-    - word: ablactating
-      hint: 
-    - word: ablactation
-      hint: 
-    - word: ablaqueate
-      hint: 
-    - word: ablare
-      hint: 
-    - word: ablastemic
-      hint: 
-    - word: ablastin
-      hint: 
-    - word: ablastous
-      hint: 
-    - word: ablate
-      hint: 
-    - word: ablated
-      hint: 
-    - word: ablates
-      hint: 
-    - word: ablating
-      hint: 
-    - word: ablation
-      hint: 
-    - word: ablations
-      hint: 
-    - word: ablatitious
-      hint: 
-    - word: ablatival
-      hint: 
-    - word: ablative
-      hint: 
-    - word: ablatively
-      hint: 
-    - word: ablatives
-      hint: 
-    - word: ablator
-      hint: 
-    - word: ablaut
-      hint: 
-    - word: ablauts
-      hint: 
-    - word: ablaze
-      hint: 
-    - word: able
-      hint: 
-    - word: ableeze
-      hint: 
-    - word: ablegate
-      hint: 
-    - word: ablegates
-      hint: 
-    - word: ablegation
-      hint: 
-    - word: ablend
-      hint: 
-    - word: ableness
-      hint: 
-    - word: ablepharia
-      hint: 
-    - word: ablepharon
-      hint: 
-    - word: ablepharous
-      hint: 
-    - word: ablepharus
-      hint: 
-    - word: ablepsia
-      hint: 
-    - word: ablepsy
-      hint: 
-    - word: ableptical
-      hint: 
-    - word: ableptically
-      hint: 
-    - word: abler
-      hint: 
-    - word: ables
-      hint: 
-    - word: ablesse
-      hint: 
-    - word: ablest
-      hint: 
-    - word: ablet
-      hint: 
-    - word: ablewhackets
-      hint: 
-    - word: ablings
-      hint: 
-    - word: ablins
-      hint: 
-    - word: ablock
-      hint: 
-    - word: abloom
-      hint: 
-    - word: ablow
-      hint: 
-    - word: ablude
-      hint: 
-    - word: abluent
-      hint: 
-    - word: abluents
-      hint: 
-    - word: ablush
-      hint: 
-    - word: ablute
-      hint: 
-    - word: abluted
-      hint: 
-    - word: ablution
-      hint: 
-    - word: ablutionary
-      hint: 
-    - word: ablutions
-      hint: 
-    - word: abluvion
-      hint: 
-    - word: ably
-      hint: 
-    - word: abmho
-      hint: 
-    - word: abmhos
-      hint: 
-    - word: abmodalities
-      hint: 
-    - word: abmodality
-      hint: 
-    - word: abn
-      hint: 
-    - word: abnaki
-      hint: 
-    - word: abnegate
-      hint: 
-    - word: abnegated
-      hint: 
-    - word: abnegates
-      hint: 
-    - word: abnegating
-      hint: 
-    - word: abnegation
-      hint: 
-    - word: abnegations
-      hint: 
-    - word: abnegative
-      hint: 
-    - word: abnegator
-      hint: 
-    - word: abnegators
-      hint: 
-    - word: abner
-      hint: 
-    - word: abnerval
-      hint: 
-    - word: abnet
-      hint: 
-    - word: abneural
-      hint: 
-    - word: abnormal
-      hint: 
-    - word: abnormalcies
-      hint: 
-    - word: abnormalcy
-      hint: 
-    - word: abnormalise
-      hint: 
-    - word: abnormalised
-      hint: 
-    - word: abnormalising
-      hint: 
-    - word: abnormalism
-      hint: 
-    - word: abnormalist
-      hint: 
-    - word: abnormalities
-      hint: 
-    - word: abnormality
-      hint: 
-    - word: abnormalize
-      hint: 
-    - word: abnormalized
-      hint: 
-    - word: abnormalizing
-      hint: 
-    - word: abnormally
-      hint: 
-    - word: abnormalness
-      hint: 
-    - word: abnormals
-      hint: 
-    - word: abnormities
-      hint: 
-    - word: abnormity
-      hint: 
-    - word: abnormous
-      hint: 
-    - word: abnumerable
-      hint: 
-    - word: abo
-      hint: 
-    - word: aboard
-      hint: 
-    - word: aboardage
-      hint: 
-    - word: abobra
-      hint: 
-    - word: abococket
-      hint: 
-    - word: abodah
-      hint: 
-    - word: abode
-      hint: 
-    - word: aboded
-      hint: 
-    - word: abodement
-      hint: 
-    - word: abodes
-      hint: 
-    - word: aboding
-      hint: 
-    - word: abody
-      hint: 
-    - word: abogado
-      hint: 
-    - word: abogados
-      hint: 
-    - word: abohm
-      hint: 
-    - word: abohms
-      hint: 
-    - word: aboideau
-      hint: 
-    - word: aboideaus
-      hint: 
-    - word: aboideaux
-      hint: 
-    - word: aboil
-      hint: 
-    - word: aboiteau
-      hint: 
-    - word: aboiteaus
-      hint: 
-    - word: aboiteaux
-      hint: 
-    - word: abolete
-      hint: 
-    - word: abolish
-      hint: 
-    - word: abolishable
-      hint: 
-    - word: abolished
-      hint: 
-    - word: abolisher
-      hint: 
-    - word: abolishers
-      hint: 
-    - word: abolishes
-      hint: 
-    - word: abolishing
-      hint: 
-    - word: abolishment
-      hint: 
-    - word: abolishments
-      hint: 
-    - word: abolition
-      hint: 
-    - word: abolitionary
-      hint: 
-    - word: abolitionise
-      hint: 
-    - word: abolitionised
-      hint: 
-    - word: aby
-      hint: 
-    - word: abye
-      hint: 
-    - word: abyes
-      hint: 
-    - word: abying
-      hint: 
-    - word: abys
-      hint: 
-    - word: abysm
-      hint: 
-    - word: abysmal
-      hint: 
-    - word: abysmally
-      hint: 
-    - word: abysms
-      hint: 
-    - word: abyss
-      hint: 
-    - word: abyssa
-      hint: 
-    - word: abyssal
-      hint: 
-    - word: abysses
-      hint: 
-    - word: abyssinia
-      hint: 
-    - word: abyssinian
-      hint: 
-    - word: abyssinians
-      hint: 
-    - word: abyssobenthonic
-      hint: 
-    - word: abyssolith
-      hint: 
-    - word: abyssopelagic
-      hint: 
-    - word: abyssus
-      hint: 
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
-  - words: []
   - words:
-    - word: xxx
+    - word: baa
       hint: 
-  - words: []
-  - words: []
-  count: 670
+    - word: baaed
+      hint: 
+    - word: baaing
+      hint: 
+    - word: baaings
+      hint: 
+    - word: baal
+      hint: 
+    - word: baalim
+      hint: 
+    - word: baalism
+      hint: 
+    - word: baalisms
+      hint: 
+    - word: baals
+      hint: 
+    - word: baas
+      hint: 
+    - word: baases
+      hint: 
+    - word: baaskaap
+      hint: 
+    - word: baaskaaps
+      hint: 
+    - word: baaskap
+      hint: 
+    - word: baaskaps
+      hint: 
+    - word: baasskap
+      hint: 
+    - word: baasskaps
+      hint: 
+    - word: baba
+      hint: 
+    - word: babaco
+      hint: 
+    - word: babacoote
+      hint: 
+    - word: babacootes
+      hint: 
+    - word: babacos
+      hint: 
+    - word: babas
+      hint: 
+    - word: babassu
+      hint: 
+    - word: babassus
+      hint: 
+    - word: babbitries
+      hint: 
+    - word: babbitry
+      hint: 
+    - word: babbitt
+      hint: 
+    - word: babbitted
+      hint: 
+    - word: babbitting
+      hint: 
+    - word: babbittries
+      hint: 
+    - word: babbittry
+      hint: 
+    - word: babbitts
+      hint: 
+    - word: babblative
+      hint: 
+    - word: babble
+      hint: 
+    - word: babbled
+      hint: 
+    - word: babblement
+      hint: 
+    - word: babblements
+      hint: 
+    - word: babbler
+      hint: 
+    - word: babblers
+      hint: 
+    - word: babbles
+      hint: 
+    - word: babblier
+      hint: 
+    - word: babbliest
+      hint: 
+    - word: babbling
+      hint: 
+    - word: babblings
+      hint: 
+    - word: babbly
+      hint: 
+    - word: babe
+      hint: 
+    - word: babel
+      hint: 
+    - word: babeldom
+      hint: 
+    - word: babeldoms
+      hint: 
+    - word: babelesque
+      hint: 
+    - word: babelish
+      hint: 
+    - word: babelism
+      hint: 
+    - word: babelisms
+      hint: 
+    - word: babels
+      hint: 
+    - word: babes
+      hint: 
+    - word: babesia
+      hint: 
+    - word: babesias
+      hint: 
+    - word: babesiases
+      hint: 
+    - word: babesiasis
+      hint: 
+    - word: babesioses
+      hint: 
+    - word: babesiosis
+      hint: 
+    - word: babiche
+      hint: 
+    - word: babiches
+      hint: 
+    - word: babied
+      hint: 
+    - word: babier
+      hint: 
+    - word: babies
+      hint: 
+    - word: babiest
+      hint: 
+    - word: babingtonite
+      hint: 
+    - word: babingtonites
+      hint: 
+    - word: babirousa
+      hint: 
+    - word: babirousas
+      hint: 
+    - word: babiroussa
+      hint: 
+    - word: babiroussas
+      hint: 
+    - word: babirusa
+      hint: 
+    - word: babirusas
+      hint: 
+    - word: babirussa
+      hint: 
+    - word: babirussas
+      hint: 
+    - word: babka
+      hint: 
+    - word: babkas
+      hint: 
+    - word: bablah
+      hint: 
+    - word: bablahs
+      hint: 
+    - word: baboo
+      hint: 
+    - word: babool
+      hint: 
+    - word: babools
+      hint: 
+    - word: baboon
+      hint: 
+    - word: babooneries
+      hint: 
+    - word: baboonery
+      hint: 
+    - word: baboonish
+      hint: 
+    - word: baboons
+      hint: 
+    - word: baboos
+      hint: 
+    - word: baboosh
+      hint: 
+    - word: babooshes
+      hint: 
+    - word: babouche
+      hint: 
+    - word: babouches
+      hint: 
+    - word: babu
+      hint: 
+    - word: babuche
+      hint: 
+    - word: babuches
+      hint: 
+    - word: babudom
+      hint: 
+    - word: babudoms
+      hint: 
+  - words:
+    - word: caatinga
+      hint: 
+    - word: caatingas
+      hint: 
+    - word: cab
+      hint: 
+    - word: caba
+      hint: 
+    - word: cabal
+      hint: 
+    - word: cabala
+      hint: 
+    - word: cabalas
+      hint: 
+    - word: cabaletta
+      hint: 
+    - word: cabalettas
+      hint: 
+    - word: cabalette
+      hint: 
+    - word: cabalism
+      hint: 
+    - word: cabalisms
+      hint: 
+    - word: cabalist
+      hint: 
+    - word: cabalistic
+      hint: 
+    - word: cabalistical
+      hint: 
+    - word: cabalistically
+      hint: 
+    - word: cabalists
+      hint: 
+    - word: caballed
+      hint: 
+    - word: caballer
+      hint: 
+    - word: caballero
+      hint: 
+    - word: caballeros
+      hint: 
+    - word: caballers
+      hint: 
+    - word: caballine
+      hint: 
+    - word: caballing
+      hint: 
+    - word: cabals
+      hint: 
+    - word: cabana
+      hint: 
+    - word: cabanas
+      hint: 
+    - word: cabaret
+      hint: 
+    - word: cabarets
+      hint: 
+    - word: cabas
+      hint: 
+    - word: cabbage
+      hint: 
+    - word: cabbaged
+      hint: 
+    - word: cabbages
+      hint: 
+    - word: cabbagetown
+      hint: 
+    - word: cabbagetowns
+      hint: 
+    - word: cabbageworm
+      hint: 
+    - word: cabbageworms
+      hint: 
+    - word: cabbaging
+      hint: 
+    - word: cabbagy
+      hint: 
+    - word: cabbala
+      hint: 
+    - word: cabbalah
+      hint: 
+    - word: cabbalahs
+      hint: 
+    - word: cabbalas
+      hint: 
+    - word: cabbalism
+      hint: 
+    - word: cabbalisms
+      hint: 
+    - word: cabbalist
+      hint: 
+    - word: cabbalistic
+      hint: 
+    - word: cabbalistical
+      hint: 
+    - word: cabbalists
+      hint: 
+    - word: cabbed
+      hint: 
+    - word: cabbie
+      hint: 
+    - word: cabbies
+      hint: 
+    - word: cabbing
+      hint: 
+    - word: cabby
+      hint: 
+    - word: cabdriver
+      hint: 
+    - word: cabdrivers
+      hint: 
+    - word: caber
+      hint: 
+    - word: cabernet
+      hint: 
+    - word: cabernets
+      hint: 
+    - word: cabers
+      hint: 
+    - word: cabestro
+      hint: 
+    - word: cabestros
+      hint: 
+    - word: cabezon
+      hint: 
+    - word: cabezone
+      hint: 
+    - word: cabezones
+      hint: 
+    - word: cabezons
+      hint: 
+    - word: cabildo
+      hint: 
+    - word: cabildos
+      hint: 
+    - word: cabin
+      hint: 
+    - word: cabined
+      hint: 
+    - word: cabinet
+      hint: 
+    - word: cabinetmaker
+      hint: 
+    - word: cabinetmakers
+      hint: 
+    - word: cabinetmaking
+      hint: 
+    - word: cabinetmakings
+      hint: 
+    - word: cabinetries
+      hint: 
+    - word: cabinetry
+      hint: 
+    - word: cabinets
+      hint: 
+    - word: cabinetwork
+      hint: 
+    - word: cabinetworks
+      hint: 
+    - word: cabining
+      hint: 
+    - word: cabins
+      hint: 
+    - word: cable
+      hint: 
+    - word: cablecast
+      hint: 
+    - word: cablecasted
+      hint: 
+    - word: cablecaster
+      hint: 
+    - word: cablecasters
+      hint: 
+    - word: cablecasting
+      hint: 
+    - word: cablecasts
+      hint: 
+    - word: cabled
+      hint: 
+    - word: cablegram
+      hint: 
+    - word: cablegrams
+      hint: 
+    - word: cabler
+      hint: 
+    - word: cablers
+      hint: 
+    - word: cables
+      hint: 
+    - word: cablet
+      hint: 
+    - word: cablets
+      hint: 
+    - word: cablevision
+      hint: 
+    - word: cablevisions
+      hint: 
+    - word: cableway
+      hint: 
+  - words:
+    - word: daal
+      hint: 
+    - word: daals
+      hint: 
+    - word: dab
+      hint: 
+    - word: dabbed
+      hint: 
+    - word: dabber
+      hint: 
+    - word: dabbers
+      hint: 
+    - word: dabbing
+      hint: 
+    - word: dabbities
+      hint: 
+    - word: dabbity
+      hint: 
+    - word: dabble
+      hint: 
+    - word: dabbled
+      hint: 
+    - word: dabbler
+      hint: 
+    - word: dabblers
+      hint: 
+    - word: dabbles
+      hint: 
+    - word: dabbling
+      hint: 
+    - word: dabblingly
+      hint: 
+    - word: dabblings
+      hint: 
+    - word: dabchick
+      hint: 
+    - word: dabchicks
+      hint: 
+    - word: daboia
+      hint: 
+    - word: daboias
+      hint: 
+    - word: dabs
+      hint: 
+    - word: dabster
+      hint: 
+    - word: dabsters
+      hint: 
+    - word: dace
+      hint: 
+    - word: daces
+      hint: 
+    - word: dacha
+      hint: 
+    - word: dachas
+      hint: 
+    - word: dachshund
+      hint: 
+    - word: dachshunds
+      hint: 
+    - word: dacite
+      hint: 
+    - word: dacites
+      hint: 
+    - word: dacker
+      hint: 
+    - word: dackered
+      hint: 
+    - word: dackering
+      hint: 
+    - word: dackers
+      hint: 
+    - word: dacoit
+      hint: 
+    - word: dacoitage
+      hint: 
+    - word: dacoitages
+      hint: 
+    - word: dacoities
+      hint: 
+    - word: dacoits
+      hint: 
+    - word: dacoity
+      hint: 
+    - word: dacquoise
+      hint: 
+    - word: dacquoises
+      hint: 
+    - word: dacron
+      hint: 
+    - word: dacrons
+      hint: 
+    - word: dactyl
+      hint: 
+    - word: dactylar
+      hint: 
+    - word: dactyli
+      hint: 
+    - word: dactylic
+      hint: 
+    - word: dactylically
+      hint: 
+    - word: dactylics
+      hint: 
+    - word: dactyliographies
+      hint: 
+    - word: dactyliography
+      hint: 
+    - word: dactyliologies
+      hint: 
+    - word: dactyliology
+      hint: 
+    - word: dactyliomancies
+      hint: 
+    - word: dactyliomancy
+      hint: 
+    - word: dactylist
+      hint: 
+    - word: dactylists
+      hint: 
+    - word: dactylogram
+      hint: 
+    - word: dactylograms
+      hint: 
+    - word: dactylographic
+      hint: 
+    - word: dactylographies
+      hint: 
+    - word: dactylography
+      hint: 
+    - word: dactylologies
+      hint: 
+    - word: dactylology
+      hint: 
+    - word: dactyloscopies
+      hint: 
+    - word: dactyloscopy
+      hint: 
+    - word: dactyls
+      hint: 
+    - word: dactylus
+      hint: 
+    - word: dad
+      hint: 
+    - word: dada
+      hint: 
+    - word: dadaism
+      hint: 
+    - word: dadaisms
+      hint: 
+    - word: dadaist
+      hint: 
+    - word: dadaistic
+      hint: 
+    - word: dadaists
+      hint: 
+    - word: dadas
+      hint: 
+    - word: dadded
+      hint: 
+    - word: daddies
+      hint: 
+    - word: dadding
+      hint: 
+    - word: daddle
+      hint: 
+    - word: daddled
+      hint: 
+    - word: daddles
+      hint: 
+    - word: daddling
+      hint: 
+    - word: daddock
+      hint: 
+    - word: daddocks
+      hint: 
+    - word: daddy
+      hint: 
+    - word: daddyish
+      hint: 
+    - word: dadgum
+      hint: 
+    - word: dado
+      hint: 
+    - word: dadoed
+      hint: 
+    - word: dadoes
+      hint: 
+    - word: dadoing
+      hint: 
+    - word: dados
+      hint: 
+    - word: dads
+      hint: 
+    - word: dae
+      hint: 
+    - word: daedal
+      hint: 
+    - word: daedalian
+      hint: 
+  - words:
+    - word: eaceworm
+      hint: 
+    - word: eaceworms
+      hint: 
+    - word: each
+      hint: 
+    - word: eachwhere
+      hint: 
+    - word: eadish
+      hint: 
+    - word: eadishes
+      hint: 
+    - word: eager
+      hint: 
+    - word: eagerer
+      hint: 
+    - word: eagerest
+      hint: 
+    - word: eagerly
+      hint: 
+    - word: eagerness
+      hint: 
+    - word: eagernesses
+      hint: 
+    - word: eagers
+      hint: 
+    - word: eagle
+      hint: 
+    - word: eagled
+      hint: 
+    - word: eagles
+      hint: 
+    - word: eaglet
+      hint: 
+    - word: eaglets
+      hint: 
+    - word: eaglewood
+      hint: 
+    - word: eaglewoods
+      hint: 
+    - word: eagling
+      hint: 
+    - word: eagre
+      hint: 
+    - word: eagres
+      hint: 
+    - word: ealdorman
+      hint: 
+    - word: ealdormen
+      hint: 
+    - word: eale
+      hint: 
+    - word: eales
+      hint: 
+    - word: ean
+      hint: 
+    - word: eaned
+      hint: 
+    - word: eaning
+      hint: 
+    - word: eanling
+      hint: 
+    - word: eanlings
+      hint: 
+    - word: eans
+      hint: 
+    - word: ear
+      hint: 
+    - word: earache
+      hint: 
+    - word: earaches
+      hint: 
+    - word: earbash
+      hint: 
+    - word: earbashed
+      hint: 
+    - word: earbashes
+      hint: 
+    - word: earbashing
+      hint: 
+    - word: earbob
+      hint: 
+    - word: earbobs
+      hint: 
+    - word: earcon
+      hint: 
+    - word: earcons
+      hint: 
+    - word: eard
+      hint: 
+    - word: earded
+      hint: 
+    - word: earding
+      hint: 
+    - word: eardrop
+      hint: 
+    - word: eardrops
+      hint: 
+    - word: eardrum
+      hint: 
+    - word: eardrums
+      hint: 
+    - word: eards
+      hint: 
+    - word: eared
+      hint: 
+    - word: earflap
+      hint: 
+    - word: earflaps
+      hint: 
+    - word: earful
+      hint: 
+    - word: earfuls
+      hint: 
+    - word: earing
+      hint: 
+    - word: earings
+      hint: 
+    - word: earl
+      hint: 
+    - word: earlap
+      hint: 
+    - word: earlaps
+      hint: 
+    - word: earldom
+      hint: 
+    - word: earldoms
+      hint: 
+    - word: earless
+      hint: 
+    - word: earlier
+      hint: 
+    - word: earlierise
+      hint: 
+    - word: earlierised
+      hint: 
+    - word: earlierises
+      hint: 
+    - word: earlierising
+      hint: 
+    - word: earlierize
+      hint: 
+    - word: earlierized
+      hint: 
+    - word: earlierizes
+      hint: 
+    - word: earlierizing
+      hint: 
+    - word: earlies
+      hint: 
+    - word: earliest
+      hint: 
+    - word: earlike
+      hint: 
+    - word: earliness
+      hint: 
+    - word: earlinesses
+      hint: 
+    - word: earlobe
+      hint: 
+    - word: earlobes
+      hint: 
+    - word: earlock
+      hint: 
+    - word: earlocks
+      hint: 
+    - word: earls
+      hint: 
+    - word: earlship
+      hint: 
+    - word: earlships
+      hint: 
+    - word: early
+      hint: 
+    - word: earlywood
+      hint: 
+    - word: earlywoods
+      hint: 
+    - word: earmark
+      hint: 
+    - word: earmarked
+      hint: 
+    - word: earmarking
+      hint: 
+    - word: earmarks
+      hint: 
+    - word: earmuff
+      hint: 
+    - word: earmuffs
+      hint: 
+    - word: earn
+      hint: 
+    - word: earned
+      hint: 
+    - word: earner
+      hint: 
+    - word: earners
+      hint: 
+    - word: earnest
+      hint: 
+  - words:
+    - word: fab
+      hint: 
+    - word: fabaceous
+      hint: 
+    - word: fabber
+      hint: 
+    - word: fabbest
+      hint: 
+    - word: fable
+      hint: 
+    - word: fabled
+      hint: 
+    - word: fabler
+      hint: 
+    - word: fablers
+      hint: 
+    - word: fables
+      hint: 
+    - word: fabliau
+      hint: 
+    - word: fabliaux
+      hint: 
+    - word: fabling
+      hint: 
+    - word: fablings
+      hint: 
+    - word: fabric
+      hint: 
+    - word: fabricant
+      hint: 
+    - word: fabricants
+      hint: 
+    - word: fabricate
+      hint: 
+    - word: fabricated
+      hint: 
+    - word: fabricates
+      hint: 
+    - word: fabricating
+      hint: 
+    - word: fabrication
+      hint: 
+    - word: fabrications
+      hint: 
+    - word: fabricative
+      hint: 
+    - word: fabricator
+      hint: 
+    - word: fabricators
+      hint: 
+    - word: fabricked
+      hint: 
+    - word: fabricking
+      hint: 
+    - word: fabrics
+      hint: 
+    - word: fabs
+      hint: 
+    - word: fabular
+      hint: 
+    - word: fabulate
+      hint: 
+    - word: fabulated
+      hint: 
+    - word: fabulates
+      hint: 
+    - word: fabulating
+      hint: 
+    - word: fabulise
+      hint: 
+    - word: fabulised
+      hint: 
+    - word: fabulises
+      hint: 
+    - word: fabulising
+      hint: 
+    - word: fabulist
+      hint: 
+    - word: fabulistic
+      hint: 
+    - word: fabulists
+      hint: 
+    - word: fabulize
+      hint: 
+    - word: fabulized
+      hint: 
+    - word: fabulizes
+      hint: 
+    - word: fabulizing
+      hint: 
+    - word: fabulosities
+      hint: 
+    - word: fabulosity
+      hint: 
+    - word: fabulous
+      hint: 
+    - word: fabulously
+      hint: 
+    - word: fabulousness
+      hint: 
+    - word: fabulousnesses
+      hint: 
+    - word: faburden
+      hint: 
+    - word: faburdens
+      hint: 
+    - word: facade
+      hint: 
+    - word: facades
+      hint: 
+    - word: facadism
+      hint: 
+    - word: facadisms
+      hint: 
+    - word: face
+      hint: 
+    - word: faceable
+      hint: 
+    - word: facecloth
+      hint: 
+    - word: facecloths
+      hint: 
+    - word: faced
+      hint: 
+    - word: facedown
+      hint: 
+    - word: facedowns
+      hint: 
+    - word: faceless
+      hint: 
+    - word: facelessness
+      hint: 
+    - word: facelessnesses
+      hint: 
+    - word: facelift
+      hint: 
+    - word: facelifted
+      hint: 
+    - word: facelifting
+      hint: 
+    - word: facelifts
+      hint: 
+    - word: faceman
+      hint: 
+    - word: facemask
+      hint: 
+    - word: facemasks
+      hint: 
+    - word: facemen
+      hint: 
+    - word: faceoff
+      hint: 
+    - word: faceoffs
+      hint: 
+    - word: faceplate
+      hint: 
+    - word: faceplates
+      hint: 
+    - word: facer
+      hint: 
+    - word: facers
+      hint: 
+    - word: faces
+      hint: 
+    - word: facet
+      hint: 
+    - word: facete
+      hint: 
+    - word: faceted
+      hint: 
+    - word: facetely
+      hint: 
+    - word: facetiae
+      hint: 
+    - word: faceting
+      hint: 
+    - word: facetious
+      hint: 
+    - word: facetiously
+      hint: 
+    - word: facetiousness
+      hint: 
+    - word: facetiousnesses
+      hint: 
+    - word: facets
+      hint: 
+    - word: facetted
+      hint: 
+    - word: facetting
+      hint: 
+    - word: faceup
+      hint: 
+    - word: faceworker
+      hint: 
+    - word: faceworkers
+      hint: 
+    - word: facia
+      hint: 
+    - word: facial
+      hint: 
+  - words:
+    - word: gab
+      hint: 
+    - word: gabardine
+      hint: 
+    - word: gabardines
+      hint: 
+    - word: gabbard
+      hint: 
+    - word: gabbards
+      hint: 
+    - word: gabbart
+      hint: 
+    - word: gabbarts
+      hint: 
+    - word: gabbed
+      hint: 
+    - word: gabber
+      hint: 
+    - word: gabbers
+      hint: 
+    - word: gabbier
+      hint: 
+    - word: gabbiest
+      hint: 
+    - word: gabbiness
+      hint: 
+    - word: gabbinesses
+      hint: 
+    - word: gabbing
+      hint: 
+    - word: gabble
+      hint: 
+    - word: gabbled
+      hint: 
+    - word: gabblement
+      hint: 
+    - word: gabblements
+      hint: 
+    - word: gabbler
+      hint: 
+    - word: gabblers
+      hint: 
+    - word: gabbles
+      hint: 
+    - word: gabbling
+      hint: 
+    - word: gabblings
+      hint: 
+    - word: gabbro
+      hint: 
+    - word: gabbroic
+      hint: 
+    - word: gabbroid
+      hint: 
+    - word: gabbroitic
+      hint: 
+    - word: gabbros
+      hint: 
+    - word: gabby
+      hint: 
+    - word: gabelle
+      hint: 
+    - word: gabelled
+      hint: 
+    - word: gabeller
+      hint: 
+    - word: gabellers
+      hint: 
+    - word: gabelles
+      hint: 
+    - word: gaberdine
+      hint: 
+    - word: gaberdines
+      hint: 
+    - word: gaberlunzie
+      hint: 
+    - word: gaberlunzies
+      hint: 
+    - word: gabfest
+      hint: 
+    - word: gabfests
+      hint: 
+    - word: gabies
+      hint: 
+    - word: gabion
+      hint: 
+    - word: gabionade
+      hint: 
+    - word: gabionades
+      hint: 
+    - word: gabionage
+      hint: 
+    - word: gabionages
+      hint: 
+    - word: gabioned
+      hint: 
+    - word: gabions
+      hint: 
+    - word: gable
+      hint: 
+    - word: gabled
+      hint: 
+    - word: gables
+      hint: 
+    - word: gablet
+      hint: 
+    - word: gablets
+      hint: 
+    - word: gabling
+      hint: 
+    - word: gabnash
+      hint: 
+    - word: gabnashes
+      hint: 
+    - word: gaboon
+      hint: 
+    - word: gaboons
+      hint: 
+    - word: gabs
+      hint: 
+    - word: gaby
+      hint: 
+    - word: gad
+      hint: 
+    - word: gadabout
+      hint: 
+    - word: gadabouts
+      hint: 
+    - word: gadarene
+      hint: 
+    - word: gadded
+      hint: 
+    - word: gadder
+      hint: 
+    - word: gadders
+      hint: 
+    - word: gaddi
+      hint: 
+    - word: gadding
+      hint: 
+    - word: gaddis
+      hint: 
+    - word: gade
+      hint: 
+    - word: gades
+      hint: 
+    - word: gadflies
+      hint: 
+    - word: gadfly
+      hint: 
+    - word: gadge
+      hint: 
+    - word: gadges
+      hint: 
+    - word: gadget
+      hint: 
+    - word: gadgeteer
+      hint: 
+    - word: gadgeteers
+      hint: 
+    - word: gadgetries
+      hint: 
+    - word: gadgetry
+      hint: 
+    - word: gadgets
+      hint: 
+    - word: gadgety
+      hint: 
+    - word: gadgie
+      hint: 
+    - word: gadgies
+      hint: 
+    - word: gadi
+      hint: 
+    - word: gadid
+      hint: 
+    - word: gadids
+      hint: 
+    - word: gadis
+      hint: 
+    - word: gadje
+      hint: 
+    - word: gadjes
+      hint: 
+    - word: gadling
+      hint: 
+    - word: gadlings
+      hint: 
+    - word: gadoid
+      hint: 
+    - word: gadoids
+      hint: 
+    - word: gadolinite
+      hint: 
+    - word: gadolinites
+      hint: 
+    - word: gadolinium
+      hint: 
+    - word: gadoliniums
+      hint: 
+  - words:
+    - word: haaf
+      hint: 
+    - word: haafs
+      hint: 
+    - word: haanepoot
+      hint: 
+    - word: haanepoots
+      hint: 
+    - word: haar
+      hint: 
+    - word: haars
+      hint: 
+    - word: habanera
+      hint: 
+    - word: habaneras
+      hint: 
+    - word: habanero
+      hint: 
+    - word: habaneros
+      hint: 
+    - word: habdabs
+      hint: 
+    - word: habdalah
+      hint: 
+    - word: habdalahs
+      hint: 
+    - word: haberdasher
+      hint: 
+    - word: haberdasheries
+      hint: 
+    - word: haberdashers
+      hint: 
+    - word: haberdashery
+      hint: 
+    - word: haberdine
+      hint: 
+    - word: haberdines
+      hint: 
+    - word: habergeon
+      hint: 
+    - word: habergeons
+      hint: 
+    - word: habilable
+      hint: 
+    - word: habilatory
+      hint: 
+    - word: habile
+      hint: 
+    - word: habiliment
+      hint: 
+    - word: habiliments
+      hint: 
+    - word: habilitate
+      hint: 
+    - word: habilitated
+      hint: 
+    - word: habilitates
+      hint: 
+    - word: habilitating
+      hint: 
+    - word: habilitation
+      hint: 
+    - word: habilitations
+      hint: 
+    - word: habilitative
+      hint: 
+    - word: habilitator
+      hint: 
+    - word: habilitators
+      hint: 
+    - word: habit
+      hint: 
+    - word: habitabilities
+      hint: 
+    - word: habitability
+      hint: 
+    - word: habitable
+      hint: 
+    - word: habitableness
+      hint: 
+    - word: habitablenesses
+      hint: 
+    - word: habitably
+      hint: 
+    - word: habitan
+      hint: 
+    - word: habitans
+      hint: 
+    - word: habitant
+      hint: 
+    - word: habitants
+      hint: 
+    - word: habitat
+      hint: 
+    - word: habitation
+      hint: 
+    - word: habitational
+      hint: 
+    - word: habitations
+      hint: 
+    - word: habitats
+      hint: 
+    - word: habitaunce
+      hint: 
+    - word: habitaunces
+      hint: 
+    - word: habited
+      hint: 
+    - word: habiting
+      hint: 
+    - word: habits
+      hint: 
+    - word: habitual
+      hint: 
+    - word: habitually
+      hint: 
+    - word: habitualness
+      hint: 
+    - word: habitualnesses
+      hint: 
+    - word: habituals
+      hint: 
+    - word: habituate
+      hint: 
+    - word: habituated
+      hint: 
+    - word: habituates
+      hint: 
+    - word: habituating
+      hint: 
+    - word: habituation
+      hint: 
+    - word: habituations
+      hint: 
+    - word: habitude
+      hint: 
+    - word: habitudes
+      hint: 
+    - word: habitudinal
+      hint: 
+    - word: habitue
+      hint: 
+    - word: habitues
+      hint: 
+    - word: habitus
+      hint: 
+    - word: hable
+      hint: 
+    - word: haboob
+      hint: 
+    - word: haboobs
+      hint: 
+    - word: habu
+      hint: 
+    - word: habus
+      hint: 
+    - word: hacek
+      hint: 
+    - word: haceks
+      hint: 
+    - word: hacendado
+      hint: 
+    - word: hacendados
+      hint: 
+    - word: hachis
+      hint: 
+    - word: hachoo
+      hint: 
+    - word: hachure
+      hint: 
+    - word: hachured
+      hint: 
+    - word: hachures
+      hint: 
+    - word: hachuring
+      hint: 
+    - word: hacienda
+      hint: 
+    - word: haciendado
+      hint: 
+    - word: haciendados
+      hint: 
+    - word: haciendas
+      hint: 
+    - word: hack
+      hint: 
+    - word: hackable
+      hint: 
+    - word: hackamore
+      hint: 
+    - word: hackamores
+      hint: 
+    - word: hackberries
+      hint: 
+    - word: hackberry
+      hint: 
+    - word: hackbolt
+      hint: 
+    - word: hackbolts
+      hint: 
+  - words:
+    - word: iamb
+      hint: 
+    - word: iambi
+      hint: 
+    - word: iambic
+      hint: 
+    - word: iambically
+      hint: 
+    - word: iambics
+      hint: 
+    - word: iambist
+      hint: 
+    - word: iambists
+      hint: 
+    - word: iambs
+      hint: 
+    - word: iambus
+      hint: 
+    - word: iambuses
+      hint: 
+    - word: ianthine
+      hint: 
+    - word: iatric
+      hint: 
+    - word: iatrical
+      hint: 
+    - word: iatrochemical
+      hint: 
+    - word: iatrochemist
+      hint: 
+    - word: iatrochemistries
+      hint: 
+    - word: iatrochemistry
+      hint: 
+    - word: iatrochemists
+      hint: 
+    - word: iatrogenic
+      hint: 
+    - word: iatrogenically
+      hint: 
+    - word: iatrogenicities
+      hint: 
+    - word: iatrogenicity
+      hint: 
+    - word: iatrogenies
+      hint: 
+    - word: iatrogeny
+      hint: 
+    - word: iberis
+      hint: 
+    - word: iberises
+      hint: 
+    - word: ibex
+      hint: 
+    - word: ibexes
+      hint: 
+    - word: ibices
+      hint: 
+    - word: ibid
+      hint: 
+    - word: ibidem
+      hint: 
+    - word: ibis
+      hint: 
+    - word: ibises
+      hint: 
+    - word: ibogaine
+      hint: 
+    - word: ibogaines
+      hint: 
+    - word: ibuprofen
+      hint: 
+    - word: ibuprofens
+      hint: 
+    - word: ice
+      hint: 
+    - word: iceball
+      hint: 
+    - word: iceballs
+      hint: 
+    - word: iceberg
+      hint: 
+    - word: icebergs
+      hint: 
+    - word: iceblink
+      hint: 
+    - word: iceblinks
+      hint: 
+    - word: iceboat
+      hint: 
+    - word: iceboater
+      hint: 
+    - word: iceboaters
+      hint: 
+    - word: iceboating
+      hint: 
+    - word: iceboatings
+      hint: 
+    - word: iceboats
+      hint: 
+    - word: icebound
+      hint: 
+    - word: icebox
+      hint: 
+    - word: iceboxes
+      hint: 
+    - word: icebreaker
+      hint: 
+    - word: icebreakers
+      hint: 
+    - word: icebreaking
+      hint: 
+    - word: icecap
+      hint: 
+    - word: icecaps
+      hint: 
+    - word: iced
+      hint: 
+    - word: icefall
+      hint: 
+    - word: icefalls
+      hint: 
+    - word: icefield
+      hint: 
+    - word: icefields
+      hint: 
+    - word: icehouse
+      hint: 
+    - word: icehouses
+      hint: 
+    - word: icekhana
+      hint: 
+    - word: icekhanas
+      hint: 
+    - word: iceless
+      hint: 
+    - word: icelike
+      hint: 
+    - word: icemaker
+      hint: 
+    - word: icemakers
+      hint: 
+    - word: iceman
+      hint: 
+    - word: icemen
+      hint: 
+    - word: icepack
+      hint: 
+    - word: icepacks
+      hint: 
+    - word: icer
+      hint: 
+    - word: icers
+      hint: 
+    - word: ices
+      hint: 
+    - word: icescape
+      hint: 
+    - word: icescapes
+      hint: 
+    - word: icestone
+      hint: 
+    - word: icestones
+      hint: 
+    - word: ich
+      hint: 
+    - word: ichabod
+      hint: 
+    - word: iched
+      hint: 
+    - word: iches
+      hint: 
+    - word: iching
+      hint: 
+    - word: ichneumon
+      hint: 
+    - word: ichneumons
+      hint: 
+    - word: ichnite
+      hint: 
+    - word: ichnites
+      hint: 
+    - word: ichnographic
+      hint: 
+    - word: ichnographical
+      hint: 
+    - word: ichnographically
+      hint: 
+    - word: ichnographies
+      hint: 
+    - word: ichnography
+      hint: 
+    - word: ichnolite
+      hint: 
+    - word: ichnolites
+      hint: 
+    - word: ichnological
+      hint: 
+    - word: ichnologies
+      hint: 
+  - words:
+    - word: jab
+      hint: 
+    - word: jabbed
+      hint: 
+    - word: jabber
+      hint: 
+    - word: jabbered
+      hint: 
+    - word: jabberer
+      hint: 
+    - word: jabberers
+      hint: 
+    - word: jabbering
+      hint: 
+    - word: jabberingly
+      hint: 
+    - word: jabberings
+      hint: 
+    - word: jabbers
+      hint: 
+    - word: jabberwock
+      hint: 
+    - word: jabberwockies
+      hint: 
+    - word: jabberwocks
+      hint: 
+    - word: jabberwocky
+      hint: 
+    - word: jabbing
+      hint: 
+    - word: jabble
+      hint: 
+    - word: jabbled
+      hint: 
+    - word: jabbles
+      hint: 
+    - word: jabbling
+      hint: 
+    - word: jabers
+      hint: 
+    - word: jabiru
+      hint: 
+    - word: jabirus
+      hint: 
+    - word: jaborandi
+      hint: 
+    - word: jaborandis
+      hint: 
+    - word: jabot
+      hint: 
+    - word: jaboticaba
+      hint: 
+    - word: jaboticabas
+      hint: 
+    - word: jabots
+      hint: 
+    - word: jabs
+      hint: 
+    - word: jacal
+      hint: 
+    - word: jacales
+      hint: 
+    - word: jacals
+      hint: 
+    - word: jacamar
+      hint: 
+    - word: jacamars
+      hint: 
+    - word: jacana
+      hint: 
+    - word: jacanas
+      hint: 
+    - word: jacaranda
+      hint: 
+    - word: jacarandas
+      hint: 
+    - word: jacchus
+      hint: 
+    - word: jacchuses
+      hint: 
+    - word: jacent
+      hint: 
+    - word: jacinth
+      hint: 
+    - word: jacinthe
+      hint: 
+    - word: jacinthes
+      hint: 
+    - word: jacinths
+      hint: 
+    - word: jack
+      hint: 
+    - word: jackal
+      hint: 
+    - word: jackalled
+      hint: 
+    - word: jackalling
+      hint: 
+    - word: jackals
+      hint: 
+    - word: jackanapes
+      hint: 
+    - word: jackanapeses
+      hint: 
+    - word: jackaroo
+      hint: 
+    - word: jackarooed
+      hint: 
+    - word: jackarooing
+      hint: 
+    - word: jackaroos
+      hint: 
+    - word: jackass
+      hint: 
+    - word: jackasseries
+      hint: 
+    - word: jackassery
+      hint: 
+    - word: jackasses
+      hint: 
+    - word: jackboot
+      hint: 
+    - word: jackbooted
+      hint: 
+    - word: jackbooting
+      hint: 
+    - word: jackboots
+      hint: 
+    - word: jackdaw
+      hint: 
+    - word: jackdaws
+      hint: 
+    - word: jacked
+      hint: 
+    - word: jackeen
+      hint: 
+    - word: jackeens
+      hint: 
+    - word: jacker
+      hint: 
+    - word: jackeroo
+      hint: 
+    - word: jackerooed
+      hint: 
+    - word: jackerooing
+      hint: 
+    - word: jackeroos
+      hint: 
+    - word: jackers
+      hint: 
+    - word: jacket
+      hint: 
+    - word: jacketed
+      hint: 
+    - word: jacketing
+      hint: 
+    - word: jacketless
+      hint: 
+    - word: jackets
+      hint: 
+    - word: jackfish
+      hint: 
+    - word: jackfishes
+      hint: 
+    - word: jackfruit
+      hint: 
+    - word: jackfruits
+      hint: 
+    - word: jackhammer
+      hint: 
+    - word: jackhammered
+      hint: 
+    - word: jackhammering
+      hint: 
+    - word: jackhammers
+      hint: 
+    - word: jackies
+      hint: 
+    - word: jacking
+      hint: 
+    - word: jackknife
+      hint: 
+    - word: jackknifed
+      hint: 
+    - word: jackknifes
+      hint: 
+    - word: jackknifing
+      hint: 
+    - word: jackknives
+      hint: 
+    - word: jackleg
+      hint: 
+    - word: jacklegs
+      hint: 
+    - word: jacklight
+      hint: 
+    - word: jacklighted
+      hint: 
+    - word: jacklighting
+      hint: 
+  - words:
+    - word: kaama
+      hint: 
+    - word: kaamas
+      hint: 
+    - word: kaas
+      hint: 
+    - word: kab
+      hint: 
+    - word: kabab
+      hint: 
+    - word: kababbed
+      hint: 
+    - word: kababbing
+      hint: 
+    - word: kababs
+      hint: 
+    - word: kabaddi
+      hint: 
+    - word: kabaddis
+      hint: 
+    - word: kabaka
+      hint: 
+    - word: kabakas
+      hint: 
+    - word: kabala
+      hint: 
+    - word: kabalas
+      hint: 
+    - word: kabalism
+      hint: 
+    - word: kabalisms
+      hint: 
+    - word: kabalist
+      hint: 
+    - word: kabalists
+      hint: 
+    - word: kabar
+      hint: 
+    - word: kabars
+      hint: 
+    - word: kabaya
+      hint: 
+    - word: kabayas
+      hint: 
+    - word: kabbala
+      hint: 
+    - word: kabbalah
+      hint: 
+    - word: kabbalahs
+      hint: 
+    - word: kabbalas
+      hint: 
+    - word: kabele
+      hint: 
+    - word: kabeles
+      hint: 
+    - word: kabeljou
+      hint: 
+    - word: kabeljous
+      hint: 
+    - word: kabeljouw
+      hint: 
+    - word: kabeljouws
+      hint: 
+    - word: kabiki
+      hint: 
+    - word: kabikis
+      hint: 
+    - word: kabinett
+      hint: 
+    - word: kabinetts
+      hint: 
+    - word: kabob
+      hint: 
+    - word: kabobbed
+      hint: 
+    - word: kabobbing
+      hint: 
+    - word: kabobs
+      hint: 
+    - word: kabs
+      hint: 
+    - word: kabuki
+      hint: 
+    - word: kabukis
+      hint: 
+    - word: kaccha
+      hint: 
+    - word: kacchas
+      hint: 
+    - word: kacha
+      hint: 
+    - word: kachahri
+      hint: 
+    - word: kachahris
+      hint: 
+    - word: kachcha
+      hint: 
+    - word: kacheri
+      hint: 
+    - word: kacheris
+      hint: 
+    - word: kachina
+      hint: 
+    - word: kachinas
+      hint: 
+    - word: kaddish
+      hint: 
+    - word: kaddishes
+      hint: 
+    - word: kaddishim
+      hint: 
+    - word: kade
+      hint: 
+    - word: kades
+      hint: 
+    - word: kadi
+      hint: 
+    - word: kadis
+      hint: 
+    - word: kae
+      hint: 
+    - word: kaed
+      hint: 
+    - word: kaeing
+      hint: 
+    - word: kaes
+      hint: 
+    - word: kaf
+      hint: 
+    - word: kaffeeklatch
+      hint: 
+    - word: kaffeeklatches
+      hint: 
+    - word: kaffeeklatsch
+      hint: 
+    - word: kaffeeklatsches
+      hint: 
+    - word: kaffir
+      hint: 
+    - word: kaffirs
+      hint: 
+    - word: kaffiyah
+      hint: 
+    - word: kaffiyahs
+      hint: 
+    - word: kaffiyeh
+      hint: 
+    - word: kaffiyehs
+      hint: 
+    - word: kafila
+      hint: 
+    - word: kafilas
+      hint: 
+    - word: kafir
+      hint: 
+    - word: kafirs
+      hint: 
+    - word: kafs
+      hint: 
+    - word: kaftan
+      hint: 
+    - word: kaftans
+      hint: 
+    - word: kago
+      hint: 
+    - word: kagos
+      hint: 
+    - word: kagoule
+      hint: 
+    - word: kagoules
+      hint: 
+    - word: kagu
+      hint: 
+    - word: kagus
+      hint: 
+    - word: kahal
+      hint: 
+    - word: kahals
+      hint: 
+    - word: kahawai
+      hint: 
+    - word: kahawais
+      hint: 
+    - word: kahuna
+      hint: 
+    - word: kahunas
+      hint: 
+    - word: kai
+      hint: 
+    - word: kaiak
+      hint: 
+    - word: kaiaked
+      hint: 
+    - word: kaiaking
+      hint: 
+    - word: kaiaks
+      hint: 
+    - word: kaid
+      hint: 
+  - words:
+    - word: laa
+      hint: 
+    - word: laager
+      hint: 
+    - word: laagered
+      hint: 
+    - word: laagering
+      hint: 
+    - word: laagers
+      hint: 
+    - word: laari
+      hint: 
+    - word: laas
+      hint: 
+    - word: lab
+      hint: 
+    - word: labanotation
+      hint: 
+    - word: labanotations
+      hint: 
+    - word: labara
+      hint: 
+    - word: labarum
+      hint: 
+    - word: labarums
+      hint: 
+    - word: labda
+      hint: 
+    - word: labdacism
+      hint: 
+    - word: labdacisms
+      hint: 
+    - word: labdanum
+      hint: 
+    - word: labdanums
+      hint: 
+    - word: labdas
+      hint: 
+    - word: labefactation
+      hint: 
+    - word: labefactations
+      hint: 
+    - word: labefaction
+      hint: 
+    - word: labefactions
+      hint: 
+    - word: label
+      hint: 
+    - word: labelable
+      hint: 
+    - word: labeled
+      hint: 
+    - word: labeler
+      hint: 
+    - word: labelers
+      hint: 
+    - word: labeling
+      hint: 
+    - word: labella
+      hint: 
+    - word: labelled
+      hint: 
+    - word: labeller
+      hint: 
+    - word: labellers
+      hint: 
+    - word: labelling
+      hint: 
+    - word: labelloid
+      hint: 
+    - word: labellum
+      hint: 
+    - word: labels
+      hint: 
+    - word: labia
+      hint: 
+    - word: labial
+      hint: 
+    - word: labialisation
+      hint: 
+    - word: labialisations
+      hint: 
+    - word: labialise
+      hint: 
+    - word: labialised
+      hint: 
+    - word: labialises
+      hint: 
+    - word: labialising
+      hint: 
+    - word: labialism
+      hint: 
+    - word: labialisms
+      hint: 
+    - word: labialization
+      hint: 
+    - word: labializations
+      hint: 
+    - word: labialize
+      hint: 
+    - word: labialized
+      hint: 
+    - word: labializes
+      hint: 
+    - word: labializing
+      hint: 
+    - word: labially
+      hint: 
+    - word: labials
+      hint: 
+    - word: labiate
+      hint: 
+    - word: labiated
+      hint: 
+    - word: labiates
+      hint: 
+    - word: labile
+      hint: 
+    - word: labilities
+      hint: 
+    - word: lability
+      hint: 
+    - word: labiodental
+      hint: 
+    - word: labiodentals
+      hint: 
+    - word: labionasal
+      hint: 
+    - word: labionasals
+      hint: 
+    - word: labiovelar
+      hint: 
+    - word: labiovelars
+      hint: 
+    - word: labis
+      hint: 
+    - word: labises
+      hint: 
+    - word: labium
+      hint: 
+    - word: lablab
+      hint: 
+    - word: lablabs
+      hint: 
+    - word: labor
+      hint: 
+    - word: laboratories
+      hint: 
+    - word: laboratory
+      hint: 
+    - word: labored
+      hint: 
+    - word: laborer
+      hint: 
+    - word: laborers
+      hint: 
+    - word: laboring
+      hint: 
+    - word: laborious
+      hint: 
+    - word: laboriously
+      hint: 
+    - word: laboriousness
+      hint: 
+    - word: laboriousnesses
+      hint: 
+    - word: laborite
+      hint: 
+    - word: laborites
+      hint: 
+    - word: labors
+      hint: 
+    - word: laborsaving
+      hint: 
+    - word: labour
+      hint: 
+    - word: laboured
+      hint: 
+    - word: labourer
+      hint: 
+    - word: labourers
+      hint: 
+    - word: labouring
+      hint: 
+    - word: labourism
+      hint: 
+    - word: labourisms
+      hint: 
+    - word: labourist
+      hint: 
+    - word: labourists
+      hint: 
+    - word: labours
+      hint: 
+    - word: laboursome
+      hint: 
+    - word: labra
+      hint: 
+    - word: labrador
+      hint: 
+  - words:
+    - word: maa
+      hint: 
+    - word: maaed
+      hint: 
+    - word: maaing
+      hint: 
+    - word: maar
+      hint: 
+    - word: maars
+      hint: 
+    - word: maas
+      hint: 
+    - word: maatjes
+      hint: 
+    - word: mabe
+      hint: 
+    - word: mabes
+      hint: 
+    - word: mac
+      hint: 
+    - word: macaber
+      hint: 
+    - word: macaberesque
+      hint: 
+    - word: macabre
+      hint: 
+    - word: macaco
+      hint: 
+    - word: macacos
+      hint: 
+    - word: macadam
+      hint: 
+    - word: macadamia
+      hint: 
+    - word: macadamias
+      hint: 
+    - word: macadamisation
+      hint: 
+    - word: macadamisations
+      hint: 
+    - word: macadamise
+      hint: 
+    - word: macadamised
+      hint: 
+    - word: macadamises
+      hint: 
+    - word: macadamising
+      hint: 
+    - word: macadamization
+      hint: 
+    - word: macadamizations
+      hint: 
+    - word: macadamize
+      hint: 
+    - word: macadamized
+      hint: 
+    - word: macadamizer
+      hint: 
+    - word: macadamizers
+      hint: 
+    - word: macadamizes
+      hint: 
+    - word: macadamizing
+      hint: 
+    - word: macadams
+      hint: 
+    - word: macahuba
+      hint: 
+    - word: macahubas
+      hint: 
+    - word: macallum
+      hint: 
+    - word: macallums
+      hint: 
+    - word: macaque
+      hint: 
+    - word: macaques
+      hint: 
+    - word: macarena
+      hint: 
+    - word: macarenas
+      hint: 
+    - word: macarise
+      hint: 
+    - word: macarised
+      hint: 
+    - word: macarises
+      hint: 
+    - word: macarising
+      hint: 
+    - word: macarism
+      hint: 
+    - word: macarisms
+      hint: 
+    - word: macarize
+      hint: 
+    - word: macarized
+      hint: 
+    - word: macarizes
+      hint: 
+    - word: macarizing
+      hint: 
+    - word: macaroni
+      hint: 
+    - word: macaronic
+      hint: 
+    - word: macaronically
+      hint: 
+    - word: macaronics
+      hint: 
+    - word: macaronies
+      hint: 
+    - word: macaronis
+      hint: 
+    - word: macaroon
+      hint: 
+    - word: macaroons
+      hint: 
+    - word: macassar
+      hint: 
+    - word: macassars
+      hint: 
+    - word: macaw
+      hint: 
+    - word: macaws
+      hint: 
+    - word: maccabaw
+      hint: 
+    - word: maccabaws
+      hint: 
+    - word: maccaboy
+      hint: 
+    - word: maccaboys
+      hint: 
+    - word: macchia
+      hint: 
+    - word: macchie
+      hint: 
+    - word: maccoboy
+      hint: 
+    - word: maccoboys
+      hint: 
+    - word: mace
+      hint: 
+    - word: macebearer
+      hint: 
+    - word: macebearers
+      hint: 
+    - word: maced
+      hint: 
+    - word: macedoine
+      hint: 
+    - word: macedoines
+      hint: 
+    - word: macer
+      hint: 
+    - word: maceranduba
+      hint: 
+    - word: macerandubas
+      hint: 
+    - word: macerate
+      hint: 
+    - word: macerated
+      hint: 
+    - word: macerater
+      hint: 
+    - word: maceraters
+      hint: 
+    - word: macerates
+      hint: 
+    - word: macerating
+      hint: 
+    - word: maceration
+      hint: 
+    - word: macerations
+      hint: 
+    - word: macerative
+      hint: 
+    - word: macerator
+      hint: 
+    - word: macerators
+      hint: 
+    - word: macers
+      hint: 
+    - word: maces
+      hint: 
+    - word: mach
+      hint: 
+    - word: machair
+      hint: 
+    - word: machairodont
+      hint: 
+    - word: machairodonts
+      hint: 
+    - word: machairs
+      hint: 
+    - word: machan
+      hint: 
+    - word: machans
+      hint: 
+  - words:
+    - word: naam
+      hint: 
+    - word: naams
+      hint: 
+    - word: naan
+      hint: 
+    - word: naans
+      hint: 
+    - word: naartje
+      hint: 
+    - word: naartjes
+      hint: 
+    - word: nab
+      hint: 
+    - word: nabbed
+      hint: 
+    - word: nabber
+      hint: 
+    - word: nabbers
+      hint: 
+    - word: nabbing
+      hint: 
+    - word: nabe
+      hint: 
+    - word: nabes
+      hint: 
+    - word: nabis
+      hint: 
+    - word: nabk
+      hint: 
+    - word: nabks
+      hint: 
+    - word: nabla
+      hint: 
+    - word: nablas
+      hint: 
+    - word: nabob
+      hint: 
+    - word: naboberies
+      hint: 
+    - word: nabobery
+      hint: 
+    - word: nabobess
+      hint: 
+    - word: nabobesses
+      hint: 
+    - word: nabobish
+      hint: 
+    - word: nabobism
+      hint: 
+    - word: nabobisms
+      hint: 
+    - word: nabobs
+      hint: 
+    - word: nabs
+      hint: 
+    - word: nacarat
+      hint: 
+    - word: nacarats
+      hint: 
+    - word: nacelle
+      hint: 
+    - word: nacelles
+      hint: 
+    - word: nach
+      hint: 
+    - word: nachas
+      hint: 
+    - word: nache
+      hint: 
+    - word: naches
+      hint: 
+    - word: nacho
+      hint: 
+    - word: nachos
+      hint: 
+    - word: nachtmaal
+      hint: 
+    - word: nachtmaals
+      hint: 
+    - word: nacket
+      hint: 
+    - word: nackets
+      hint: 
+    - word: nacre
+      hint: 
+    - word: nacred
+      hint: 
+    - word: nacreous
+      hint: 
+    - word: nacres
+      hint: 
+    - word: nacrite
+      hint: 
+    - word: nacrites
+      hint: 
+    - word: nacrous
+      hint: 
+    - word: nada
+      hint: 
+    - word: nadas
+      hint: 
+    - word: nadir
+      hint: 
+    - word: nadiral
+      hint: 
+    - word: nadirs
+      hint: 
+    - word: nae
+      hint: 
+    - word: naebodies
+      hint: 
+    - word: naebody
+      hint: 
+    - word: naething
+      hint: 
+    - word: naethings
+      hint: 
+    - word: naeve
+      hint: 
+    - word: naeves
+      hint: 
+    - word: naevi
+      hint: 
+    - word: naevoid
+      hint: 
+    - word: naevus
+      hint: 
+    - word: naff
+      hint: 
+    - word: naffed
+      hint: 
+    - word: naffer
+      hint: 
+    - word: naffest
+      hint: 
+    - word: naffing
+      hint: 
+    - word: naffly
+      hint: 
+    - word: naffness
+      hint: 
+    - word: naffnesses
+      hint: 
+    - word: naffs
+      hint: 
+    - word: nag
+      hint: 
+    - word: naga
+      hint: 
+    - word: nagana
+      hint: 
+    - word: naganas
+      hint: 
+    - word: nagapie
+      hint: 
+    - word: nagapies
+      hint: 
+    - word: nagari
+      hint: 
+    - word: nagaris
+      hint: 
+    - word: nagas
+      hint: 
+    - word: nagged
+      hint: 
+    - word: nagger
+      hint: 
+    - word: naggers
+      hint: 
+    - word: naggier
+      hint: 
+    - word: naggiest
+      hint: 
+    - word: nagging
+      hint: 
+    - word: naggingly
+      hint: 
+    - word: naggy
+      hint: 
+    - word: nagmaal
+      hint: 
+    - word: nagmaals
+      hint: 
+    - word: nagor
+      hint: 
+    - word: nagors
+      hint: 
+    - word: nags
+      hint: 
+    - word: nah
+      hint: 
+    - word: nahal
+      hint: 
+    - word: nahals
+      hint: 
+    - word: naiad
+      hint: 
+    - word: naiades
+      hint: 
+  - words:
+    - word: oaf
+      hint: 
+    - word: oafish
+      hint: 
+    - word: oafishly
+      hint: 
+    - word: oafishness
+      hint: 
+    - word: oafishnesses
+      hint: 
+    - word: oafs
+      hint: 
+    - word: oak
+      hint: 
+    - word: oaken
+      hint: 
+    - word: oakenshaw
+      hint: 
+    - word: oakenshaws
+      hint: 
+    - word: oaker
+      hint: 
+    - word: oakers
+      hint: 
+    - word: oakier
+      hint: 
+    - word: oakiest
+      hint: 
+    - word: oakleaf
+      hint: 
+    - word: oakleaves
+      hint: 
+    - word: oaklike
+      hint: 
+    - word: oakling
+      hint: 
+    - word: oaklings
+      hint: 
+    - word: oakmoss
+      hint: 
+    - word: oakmosses
+      hint: 
+    - word: oaks
+      hint: 
+    - word: oakum
+      hint: 
+    - word: oakums
+      hint: 
+    - word: oaky
+      hint: 
+    - word: oar
+      hint: 
+    - word: oarage
+      hint: 
+    - word: oarages
+      hint: 
+    - word: oared
+      hint: 
+    - word: oarfish
+      hint: 
+    - word: oarfishes
+      hint: 
+    - word: oarier
+      hint: 
+    - word: oariest
+      hint: 
+    - word: oaring
+      hint: 
+    - word: oarless
+      hint: 
+    - word: oarlike
+      hint: 
+    - word: oarlock
+      hint: 
+    - word: oarlocks
+      hint: 
+    - word: oars
+      hint: 
+    - word: oarsman
+      hint: 
+    - word: oarsmanship
+      hint: 
+    - word: oarsmanships
+      hint: 
+    - word: oarsmen
+      hint: 
+    - word: oarswoman
+      hint: 
+    - word: oarswomen
+      hint: 
+    - word: oarweed
+      hint: 
+    - word: oarweeds
+      hint: 
+    - word: oary
+      hint: 
+    - word: oases
+      hint: 
+    - word: oasis
+      hint: 
+    - word: oast
+      hint: 
+    - word: oasthouse
+      hint: 
+    - word: oasthouses
+      hint: 
+    - word: oasts
+      hint: 
+    - word: oat
+      hint: 
+    - word: oatcake
+      hint: 
+    - word: oatcakes
+      hint: 
+    - word: oaten
+      hint: 
+    - word: oater
+      hint: 
+    - word: oaters
+      hint: 
+    - word: oath
+      hint: 
+    - word: oathable
+      hint: 
+    - word: oaths
+      hint: 
+    - word: oatlike
+      hint: 
+    - word: oatmeal
+      hint: 
+    - word: oatmeals
+      hint: 
+    - word: oats
+      hint: 
+    - word: oaves
+      hint: 
+    - word: oba
+      hint: 
+    - word: obang
+      hint: 
+    - word: obangs
+      hint: 
+    - word: obas
+      hint: 
+    - word: obbligati
+      hint: 
+    - word: obbligato
+      hint: 
+    - word: obbligatos
+      hint: 
+    - word: obcompressed
+      hint: 
+    - word: obconic
+      hint: 
+    - word: obconical
+      hint: 
+    - word: obcordate
+      hint: 
+    - word: obdiplostemonous
+      hint: 
+    - word: obduracies
+      hint: 
+    - word: obduracy
+      hint: 
+    - word: obdurate
+      hint: 
+    - word: obdurated
+      hint: 
+    - word: obdurately
+      hint: 
+    - word: obdurateness
+      hint: 
+    - word: obduratenesses
+      hint: 
+    - word: obdurates
+      hint: 
+    - word: obdurating
+      hint: 
+    - word: obduration
+      hint: 
+    - word: obdurations
+      hint: 
+    - word: obdure
+      hint: 
+    - word: obdured
+      hint: 
+    - word: obdures
+      hint: 
+    - word: obduring
+      hint: 
+    - word: obe
+      hint: 
+    - word: obeah
+      hint: 
+    - word: obeahed
+      hint: 
+    - word: obeahing
+      hint: 
+    - word: obeahism
+      hint: 
+  - words:
+    - word: pablum
+      hint: 
+    - word: pablums
+      hint: 
+    - word: pabouche
+      hint: 
+    - word: pabouches
+      hint: 
+    - word: pabular
+      hint: 
+    - word: pabulous
+      hint: 
+    - word: pabulum
+      hint: 
+    - word: pabulums
+      hint: 
+    - word: pac
+      hint: 
+    - word: paca
+      hint: 
+    - word: pacable
+      hint: 
+    - word: pacas
+      hint: 
+    - word: pacation
+      hint: 
+    - word: pacations
+      hint: 
+    - word: pace
+      hint: 
+    - word: paced
+      hint: 
+    - word: pacemaker
+      hint: 
+    - word: pacemakers
+      hint: 
+    - word: pacemaking
+      hint: 
+    - word: pacemakings
+      hint: 
+    - word: pacer
+      hint: 
+    - word: pacers
+      hint: 
+    - word: paces
+      hint: 
+    - word: pacesetter
+      hint: 
+    - word: pacesetters
+      hint: 
+    - word: pacesetting
+      hint: 
+    - word: pacey
+      hint: 
+    - word: pacha
+      hint: 
+    - word: pachadom
+      hint: 
+    - word: pachadoms
+      hint: 
+    - word: pachak
+      hint: 
+    - word: pachaks
+      hint: 
+    - word: pachalic
+      hint: 
+    - word: pachalics
+      hint: 
+    - word: pachas
+      hint: 
+    - word: pachinko
+      hint: 
+    - word: pachinkos
+      hint: 
+    - word: pachisi
+      hint: 
+    - word: pachisis
+      hint: 
+    - word: pachouli
+      hint: 
+    - word: pachoulis
+      hint: 
+    - word: pachuco
+      hint: 
+    - word: pachucos
+      hint: 
+    - word: pachycarpous
+      hint: 
+    - word: pachydactyl
+      hint: 
+    - word: pachydactylous
+      hint: 
+    - word: pachyderm
+      hint: 
+    - word: pachydermal
+      hint: 
+    - word: pachydermatous
+      hint: 
+    - word: pachydermatously
+      hint: 
+    - word: pachydermia
+      hint: 
+    - word: pachydermias
+      hint: 
+    - word: pachydermic
+      hint: 
+    - word: pachydermous
+      hint: 
+    - word: pachyderms
+      hint: 
+    - word: pachymeter
+      hint: 
+    - word: pachymeters
+      hint: 
+    - word: pachysandra
+      hint: 
+    - word: pachysandras
+      hint: 
+    - word: pachytene
+      hint: 
+    - word: pachytenes
+      hint: 
+    - word: pacier
+      hint: 
+    - word: paciest
+      hint: 
+    - word: pacifiable
+      hint: 
+    - word: pacific
+      hint: 
+    - word: pacifical
+      hint: 
+    - word: pacifically
+      hint: 
+    - word: pacificate
+      hint: 
+    - word: pacificated
+      hint: 
+    - word: pacificates
+      hint: 
+    - word: pacificating
+      hint: 
+    - word: pacification
+      hint: 
+    - word: pacifications
+      hint: 
+    - word: pacificator
+      hint: 
+    - word: pacificators
+      hint: 
+    - word: pacificatory
+      hint: 
+    - word: pacificism
+      hint: 
+    - word: pacificisms
+      hint: 
+    - word: pacificist
+      hint: 
+    - word: pacificists
+      hint: 
+    - word: pacified
+      hint: 
+    - word: pacifier
+      hint: 
+    - word: pacifiers
+      hint: 
+    - word: pacifies
+      hint: 
+    - word: pacifism
+      hint: 
+    - word: pacifisms
+      hint: 
+    - word: pacifist
+      hint: 
+    - word: pacifistic
+      hint: 
+    - word: pacifistically
+      hint: 
+    - word: pacifists
+      hint: 
+    - word: pacify
+      hint: 
+    - word: pacifying
+      hint: 
+    - word: pacing
+      hint: 
+    - word: pack
+      hint: 
+    - word: packabilities
+      hint: 
+    - word: packability
+      hint: 
+    - word: packable
+      hint: 
+    - word: package
+      hint: 
+    - word: packaged
+      hint: 
+    - word: packager
+      hint: 
+  - words:
+    - word: qabalah
+      hint: 
+    - word: qabalahs
+      hint: 
+    - word: qadi
+      hint: 
+    - word: qadis
+      hint: 
+    - word: qaid
+      hint: 
+    - word: qaids
+      hint: 
+    - word: qaimaqam
+      hint: 
+    - word: qaimaqams
+      hint: 
+    - word: qalamdan
+      hint: 
+    - word: qalamdans
+      hint: 
+    - word: qanat
+      hint: 
+    - word: qanats
+      hint: 
+    - word: qasida
+      hint: 
+    - word: qasidas
+      hint: 
+    - word: qat
+      hint: 
+    - word: qats
+      hint: 
+    - word: qibla
+      hint: 
+    - word: qiblas
+      hint: 
+    - word: qigong
+      hint: 
+    - word: qigongs
+      hint: 
+    - word: qindar
+      hint: 
+    - word: qindarka
+      hint: 
+    - word: qindarkas
+      hint: 
+    - word: qindars
+      hint: 
+    - word: qinghaosu
+      hint: 
+    - word: qinghaosus
+      hint: 
+    - word: qintar
+      hint: 
+    - word: qintars
+      hint: 
+    - word: qis
+      hint: 
+    - word: qiviut
+      hint: 
+    - word: qiviuts
+      hint: 
+    - word: qoph
+      hint: 
+    - word: qophs
+      hint: 
+    - word: qua
+      hint: 
+    - word: quaalude
+      hint: 
+    - word: quaaludes
+      hint: 
+    - word: quack
+      hint: 
+    - word: quacked
+      hint: 
+    - word: quacker
+      hint: 
+    - word: quackeries
+      hint: 
+    - word: quackers
+      hint: 
+    - word: quackery
+      hint: 
+    - word: quacking
+      hint: 
+    - word: quackish
+      hint: 
+    - word: quackishly
+      hint: 
+    - word: quackism
+      hint: 
+    - word: quackisms
+      hint: 
+    - word: quackle
+      hint: 
+    - word: quackled
+      hint: 
+    - word: quackles
+      hint: 
+    - word: quackling
+      hint: 
+    - word: quacks
+      hint: 
+    - word: quacksalver
+      hint: 
+    - word: quacksalvers
+      hint: 
+    - word: quacksalving
+      hint: 
+    - word: quacky
+      hint: 
+    - word: quad
+      hint: 
+    - word: quadded
+      hint: 
+    - word: quadding
+      hint: 
+    - word: quadplex
+      hint: 
+    - word: quadplexes
+      hint: 
+    - word: quadragenarian
+      hint: 
+    - word: quadragenarians
+      hint: 
+    - word: quadragesimal
+      hint: 
+    - word: quadrangle
+      hint: 
+    - word: quadrangles
+      hint: 
+    - word: quadrangular
+      hint: 
+    - word: quadrangularly
+      hint: 
+    - word: quadrans
+      hint: 
+    - word: quadrant
+      hint: 
+    - word: quadrantal
+      hint: 
+    - word: quadrantes
+      hint: 
+    - word: quadrants
+      hint: 
+    - word: quadraphonic
+      hint: 
+    - word: quadraphonics
+      hint: 
+    - word: quadraphonies
+      hint: 
+    - word: quadraphony
+      hint: 
+    - word: quadraplegia
+      hint: 
+    - word: quadraplegias
+      hint: 
+    - word: quadraplegic
+      hint: 
+    - word: quadraplegics
+      hint: 
+    - word: quadrat
+      hint: 
+    - word: quadrate
+      hint: 
+    - word: quadrated
+      hint: 
+    - word: quadrates
+      hint: 
+    - word: quadratic
+      hint: 
+    - word: quadratical
+      hint: 
+    - word: quadratically
+      hint: 
+    - word: quadratics
+      hint: 
+    - word: quadrating
+      hint: 
+    - word: quadratrix
+      hint: 
+    - word: quadratrixes
+      hint: 
+    - word: quadrats
+      hint: 
+    - word: quadratura
+      hint: 
+    - word: quadrature
+      hint: 
+    - word: quadratures
+      hint: 
+    - word: quadratus
+      hint: 
+    - word: quadratuses
+      hint: 
+    - word: quadrella
+      hint: 
+    - word: quadrellas
+      hint: 
+  - words:
+    - word: rabanna
+      hint: 
+    - word: rabannas
+      hint: 
+    - word: rabat
+      hint: 
+    - word: rabatine
+      hint: 
+    - word: rabatines
+      hint: 
+    - word: rabatment
+      hint: 
+    - word: rabatments
+      hint: 
+    - word: rabato
+      hint: 
+    - word: rabatoes
+      hint: 
+    - word: rabatos
+      hint: 
+    - word: rabats
+      hint: 
+    - word: rabatte
+      hint: 
+    - word: rabatted
+      hint: 
+    - word: rabattement
+      hint: 
+    - word: rabattements
+      hint: 
+    - word: rabattes
+      hint: 
+    - word: rabatting
+      hint: 
+    - word: rabattings
+      hint: 
+    - word: rabbet
+      hint: 
+    - word: rabbeted
+      hint: 
+    - word: rabbeting
+      hint: 
+    - word: rabbets
+      hint: 
+    - word: rabbi
+      hint: 
+    - word: rabbies
+      hint: 
+    - word: rabbin
+      hint: 
+    - word: rabbinate
+      hint: 
+    - word: rabbinates
+      hint: 
+    - word: rabbinic
+      hint: 
+    - word: rabbinical
+      hint: 
+    - word: rabbinically
+      hint: 
+    - word: rabbinism
+      hint: 
+    - word: rabbinisms
+      hint: 
+    - word: rabbinist
+      hint: 
+    - word: rabbinistic
+      hint: 
+    - word: rabbinists
+      hint: 
+    - word: rabbinite
+      hint: 
+    - word: rabbinites
+      hint: 
+    - word: rabbins
+      hint: 
+    - word: rabbis
+      hint: 
+    - word: rabbit
+      hint: 
+    - word: rabbitbrush
+      hint: 
+    - word: rabbitbrushes
+      hint: 
+    - word: rabbited
+      hint: 
+    - word: rabbiter
+      hint: 
+    - word: rabbiters
+      hint: 
+    - word: rabbitfish
+      hint: 
+    - word: rabbitfishes
+      hint: 
+    - word: rabbiting
+      hint: 
+    - word: rabbitries
+      hint: 
+    - word: rabbitry
+      hint: 
+    - word: rabbits
+      hint: 
+    - word: rabbity
+      hint: 
+    - word: rabble
+      hint: 
+    - word: rabbled
+      hint: 
+    - word: rabblement
+      hint: 
+    - word: rabblements
+      hint: 
+    - word: rabbler
+      hint: 
+    - word: rabblers
+      hint: 
+    - word: rabbles
+      hint: 
+    - word: rabbling
+      hint: 
+    - word: rabblings
+      hint: 
+    - word: rabboni
+      hint: 
+    - word: rabbonis
+      hint: 
+    - word: rabi
+      hint: 
+    - word: rabic
+      hint: 
+    - word: rabid
+      hint: 
+    - word: rabider
+      hint: 
+    - word: rabidest
+      hint: 
+    - word: rabidities
+      hint: 
+    - word: rabidity
+      hint: 
+    - word: rabidly
+      hint: 
+    - word: rabidness
+      hint: 
+    - word: rabidnesses
+      hint: 
+    - word: rabies
+      hint: 
+    - word: rabietic
+      hint: 
+    - word: rabis
+      hint: 
+    - word: raca
+      hint: 
+    - word: racahout
+      hint: 
+    - word: racahouts
+      hint: 
+    - word: raccahout
+      hint: 
+    - word: raccahouts
+      hint: 
+    - word: raccoon
+      hint: 
+    - word: raccoons
+      hint: 
+    - word: race
+      hint: 
+    - word: racecar
+      hint: 
+    - word: racecard
+      hint: 
+    - word: racecards
+      hint: 
+    - word: racecars
+      hint: 
+    - word: racecourse
+      hint: 
+    - word: racecourses
+      hint: 
+    - word: raced
+      hint: 
+    - word: racegoer
+      hint: 
+    - word: racegoers
+      hint: 
+    - word: racegoing
+      hint: 
+    - word: racegoings
+      hint: 
+    - word: racehorse
+      hint: 
+    - word: racehorses
+      hint: 
+    - word: racemate
+      hint: 
+    - word: racemates
+      hint: 
+    - word: racemation
+      hint: 
+  - words:
+    - word: sab
+      hint: 
+    - word: sabadilla
+      hint: 
+    - word: sabadillas
+      hint: 
+    - word: sabal
+      hint: 
+    - word: sabals
+      hint: 
+    - word: sabaton
+      hint: 
+    - word: sabatons
+      hint: 
+    - word: sabayon
+      hint: 
+    - word: sabayons
+      hint: 
+    - word: sabbat
+      hint: 
+    - word: sabbatarian
+      hint: 
+    - word: sabbath
+      hint: 
+    - word: sabbaths
+      hint: 
+    - word: sabbatic
+      hint: 
+    - word: sabbatical
+      hint: 
+    - word: sabbaticals
+      hint: 
+    - word: sabbatics
+      hint: 
+    - word: sabbatine
+      hint: 
+    - word: sabbatise
+      hint: 
+    - word: sabbatised
+      hint: 
+    - word: sabbatises
+      hint: 
+    - word: sabbatising
+      hint: 
+    - word: sabbatism
+      hint: 
+    - word: sabbatisms
+      hint: 
+    - word: sabbatize
+      hint: 
+    - word: sabbatized
+      hint: 
+    - word: sabbatizes
+      hint: 
+    - word: sabbatizing
+      hint: 
+    - word: sabbats
+      hint: 
+    - word: sabbed
+      hint: 
+    - word: sabbing
+      hint: 
+    - word: sabe
+      hint: 
+    - word: sabed
+      hint: 
+    - word: sabeing
+      hint: 
+    - word: sabella
+      hint: 
+    - word: sabellas
+      hint: 
+    - word: saber
+      hint: 
+    - word: sabered
+      hint: 
+    - word: sabering
+      hint: 
+    - word: sabermetrician
+      hint: 
+    - word: sabermetricians
+      hint: 
+    - word: sabermetrics
+      hint: 
+    - word: sabers
+      hint: 
+    - word: sabes
+      hint: 
+    - word: sabin
+      hint: 
+    - word: sabine
+      hint: 
+    - word: sabines
+      hint: 
+    - word: sabins
+      hint: 
+    - word: sabir
+      hint: 
+    - word: sabirs
+      hint: 
+    - word: sabji
+      hint: 
+    - word: sabjis
+      hint: 
+    - word: sabkha
+      hint: 
+    - word: sabkhah
+      hint: 
+    - word: sabkhahs
+      hint: 
+    - word: sabkhas
+      hint: 
+    - word: sabkhat
+      hint: 
+    - word: sabkhats
+      hint: 
+    - word: sable
+      hint: 
+    - word: sabled
+      hint: 
+    - word: sablefish
+      hint: 
+    - word: sablefishes
+      hint: 
+    - word: sables
+      hint: 
+    - word: sabling
+      hint: 
+    - word: sabot
+      hint: 
+    - word: sabotage
+      hint: 
+    - word: sabotaged
+      hint: 
+    - word: sabotages
+      hint: 
+    - word: sabotaging
+      hint: 
+    - word: saboted
+      hint: 
+    - word: saboteur
+      hint: 
+    - word: saboteurs
+      hint: 
+    - word: sabotier
+      hint: 
+    - word: sabotiers
+      hint: 
+    - word: sabots
+      hint: 
+    - word: sabra
+      hint: 
+    - word: sabras
+      hint: 
+    - word: sabre
+      hint: 
+    - word: sabred
+      hint: 
+    - word: sabres
+      hint: 
+    - word: sabretache
+      hint: 
+    - word: sabretaches
+      hint: 
+    - word: sabreur
+      hint: 
+    - word: sabreurs
+      hint: 
+    - word: sabring
+      hint: 
+    - word: sabs
+      hint: 
+    - word: sabuline
+      hint: 
+    - word: sabulose
+      hint: 
+    - word: sabulosities
+      hint: 
+    - word: sabulosity
+      hint: 
+    - word: sabulous
+      hint: 
+    - word: saburra
+      hint: 
+    - word: saburral
+      hint: 
+    - word: saburras
+      hint: 
+    - word: saburration
+      hint: 
+    - word: saburrations
+      hint: 
+    - word: sac
+      hint: 
+    - word: sacahuista
+      hint: 
+    - word: sacahuistas
+      hint: 
+    - word: sacahuiste
+      hint: 
+  - words:
+    - word: tab
+      hint: 
+    - word: tabanca
+      hint: 
+    - word: tabancas
+      hint: 
+    - word: tabanid
+      hint: 
+    - word: tabanids
+      hint: 
+    - word: tabard
+      hint: 
+    - word: tabarded
+      hint: 
+    - word: tabards
+      hint: 
+    - word: tabaret
+      hint: 
+    - word: tabarets
+      hint: 
+    - word: tabasheer
+      hint: 
+    - word: tabasheers
+      hint: 
+    - word: tabashir
+      hint: 
+    - word: tabashirs
+      hint: 
+    - word: tabbed
+      hint: 
+    - word: tabbied
+      hint: 
+    - word: tabbies
+      hint: 
+    - word: tabbinet
+      hint: 
+    - word: tabbinets
+      hint: 
+    - word: tabbing
+      hint: 
+    - word: tabbis
+      hint: 
+    - word: tabbises
+      hint: 
+    - word: tabbouleh
+      hint: 
+    - word: tabboulehs
+      hint: 
+    - word: tabby
+      hint: 
+    - word: tabbyhood
+      hint: 
+    - word: tabbyhoods
+      hint: 
+    - word: tabbying
+      hint: 
+    - word: tabefaction
+      hint: 
+    - word: tabefactions
+      hint: 
+    - word: tabefied
+      hint: 
+    - word: tabefies
+      hint: 
+    - word: tabefy
+      hint: 
+    - word: tabefying
+      hint: 
+    - word: tabellion
+      hint: 
+    - word: tabellions
+      hint: 
+    - word: taber
+      hint: 
+    - word: taberd
+      hint: 
+    - word: taberdar
+      hint: 
+    - word: taberdars
+      hint: 
+    - word: taberds
+      hint: 
+    - word: tabered
+      hint: 
+    - word: tabering
+      hint: 
+    - word: tabernacle
+      hint: 
+    - word: tabernacled
+      hint: 
+    - word: tabernacles
+      hint: 
+    - word: tabernacling
+      hint: 
+    - word: tabernacular
+      hint: 
+    - word: tabers
+      hint: 
+    - word: tabes
+      hint: 
+    - word: tabescence
+      hint: 
+    - word: tabescences
+      hint: 
+    - word: tabescent
+      hint: 
+    - word: tabetic
+      hint: 
+    - word: tabetics
+      hint: 
+    - word: tabi
+      hint: 
+    - word: tabid
+      hint: 
+    - word: tabinet
+      hint: 
+    - word: tabinets
+      hint: 
+    - word: tabis
+      hint: 
+    - word: tabla
+      hint: 
+    - word: tablanette
+      hint: 
+    - word: tablanettes
+      hint: 
+    - word: tablas
+      hint: 
+    - word: tablature
+      hint: 
+    - word: tablatures
+      hint: 
+    - word: table
+      hint: 
+    - word: tableau
+      hint: 
+    - word: tableaus
+      hint: 
+    - word: tableaux
+      hint: 
+    - word: tablecloth
+      hint: 
+    - word: tablecloths
+      hint: 
+    - word: tabled
+      hint: 
+    - word: tableful
+      hint: 
+    - word: tablefuls
+      hint: 
+    - word: tableland
+      hint: 
+    - word: tablelands
+      hint: 
+    - word: tablemate
+      hint: 
+    - word: tablemates
+      hint: 
+    - word: tables
+      hint: 
+    - word: tablesful
+      hint: 
+    - word: tablespoon
+      hint: 
+    - word: tablespoonful
+      hint: 
+    - word: tablespoonfuls
+      hint: 
+    - word: tablespoons
+      hint: 
+    - word: tablespoonsful
+      hint: 
+    - word: tablet
+      hint: 
+    - word: tableted
+      hint: 
+    - word: tableting
+      hint: 
+    - word: tabletop
+      hint: 
+    - word: tabletopped
+      hint: 
+    - word: tabletops
+      hint: 
+    - word: tablets
+      hint: 
+    - word: tabletted
+      hint: 
+    - word: tabletting
+      hint: 
+    - word: tableware
+      hint: 
+    - word: tablewares
+      hint: 
+    - word: tablewise
+      hint: 
+    - word: tablier
+      hint: 
+    - word: tabliers
+      hint: 
+  - words:
+    - word: uakari
+      hint: 
+    - word: uakaris
+      hint: 
+    - word: uberous
+      hint: 
+    - word: uberties
+      hint: 
+    - word: uberty
+      hint: 
+    - word: ubieties
+      hint: 
+    - word: ubiety
+      hint: 
+    - word: ubiquarian
+      hint: 
+    - word: ubique
+      hint: 
+    - word: ubiquinone
+      hint: 
+    - word: ubiquinones
+      hint: 
+    - word: ubiquitarian
+      hint: 
+    - word: ubiquitarians
+      hint: 
+    - word: ubiquitary
+      hint: 
+    - word: ubiquities
+      hint: 
+    - word: ubiquitous
+      hint: 
+    - word: ubiquitously
+      hint: 
+    - word: ubiquitousness
+      hint: 
+    - word: ubiquitousnesses
+      hint: 
+    - word: ubiquity
+      hint: 
+    - word: ubuntu
+      hint: 
+    - word: ubuntus
+      hint: 
+    - word: uckers
+      hint: 
+    - word: udal
+      hint: 
+    - word: udaller
+      hint: 
+    - word: udallers
+      hint: 
+    - word: udals
+      hint: 
+    - word: udder
+      hint: 
+    - word: uddered
+      hint: 
+    - word: udderful
+      hint: 
+    - word: udderless
+      hint: 
+    - word: udders
+      hint: 
+    - word: udo
+      hint: 
+    - word: udometer
+      hint: 
+    - word: udometers
+      hint: 
+    - word: udometric
+      hint: 
+    - word: udometries
+      hint: 
+    - word: udometry
+      hint: 
+    - word: udos
+      hint: 
+    - word: uds
+      hint: 
+    - word: uey
+      hint: 
+    - word: ueys
+      hint: 
+    - word: ufo
+      hint: 
+    - word: ufological
+      hint: 
+    - word: ufologies
+      hint: 
+    - word: ufologist
+      hint: 
+    - word: ufologists
+      hint: 
+    - word: ufology
+      hint: 
+    - word: ufos
+      hint: 
+    - word: ugged
+      hint: 
+    - word: ugging
+      hint: 
+    - word: ugh
+      hint: 
+    - word: ughs
+      hint: 
+    - word: ugli
+      hint: 
+    - word: uglied
+      hint: 
+    - word: uglier
+      hint: 
+    - word: uglies
+      hint: 
+    - word: ugliest
+      hint: 
+    - word: uglification
+      hint: 
+    - word: uglifications
+      hint: 
+    - word: uglified
+      hint: 
+    - word: uglifier
+      hint: 
+    - word: uglifiers
+      hint: 
+    - word: uglifies
+      hint: 
+    - word: uglify
+      hint: 
+    - word: uglifying
+      hint: 
+    - word: uglily
+      hint: 
+    - word: ugliness
+      hint: 
+    - word: uglinesses
+      hint: 
+    - word: uglis
+      hint: 
+    - word: ugly
+      hint: 
+    - word: uglying
+      hint: 
+    - word: ugs
+      hint: 
+    - word: ugsome
+      hint: 
+    - word: ugsomeness
+      hint: 
+    - word: ugsomenesses
+      hint: 
+    - word: uhlan
+      hint: 
+    - word: uhlans
+      hint: 
+    - word: uhuru
+      hint: 
+    - word: uhurus
+      hint: 
+    - word: uintahite
+      hint: 
+    - word: uintahites
+      hint: 
+    - word: uintaite
+      hint: 
+    - word: uintaites
+      hint: 
+    - word: uintathere
+      hint: 
+    - word: uintatheres
+      hint: 
+    - word: uitlander
+      hint: 
+    - word: uitlanders
+      hint: 
+    - word: ujamaa
+      hint: 
+    - word: ujamaas
+      hint: 
+    - word: ukase
+      hint: 
+    - word: ukases
+      hint: 
+    - word: uke
+      hint: 
+    - word: ukelele
+      hint: 
+    - word: ukeleles
+      hint: 
+    - word: ukes
+      hint: 
+    - word: ukulele
+      hint: 
+    - word: ukuleles
+      hint: 
+    - word: ulama
+      hint: 
+    - word: ulamas
+      hint: 
+  - words:
+    - word: vac
+      hint: 
+    - word: vacance
+      hint: 
+    - word: vacances
+      hint: 
+    - word: vacancies
+      hint: 
+    - word: vacancy
+      hint: 
+    - word: vacant
+      hint: 
+    - word: vacantly
+      hint: 
+    - word: vacantness
+      hint: 
+    - word: vacantnesses
+      hint: 
+    - word: vacatable
+      hint: 
+    - word: vacate
+      hint: 
+    - word: vacated
+      hint: 
+    - word: vacates
+      hint: 
+    - word: vacating
+      hint: 
+    - word: vacation
+      hint: 
+    - word: vacationed
+      hint: 
+    - word: vacationer
+      hint: 
+    - word: vacationers
+      hint: 
+    - word: vacationing
+      hint: 
+    - word: vacationist
+      hint: 
+    - word: vacationists
+      hint: 
+    - word: vacationland
+      hint: 
+    - word: vacationlands
+      hint: 
+    - word: vacationless
+      hint: 
+    - word: vacations
+      hint: 
+    - word: vacatur
+      hint: 
+    - word: vacaturs
+      hint: 
+    - word: vaccina
+      hint: 
+    - word: vaccinal
+      hint: 
+    - word: vaccinas
+      hint: 
+    - word: vaccinate
+      hint: 
+    - word: vaccinated
+      hint: 
+    - word: vaccinates
+      hint: 
+    - word: vaccinating
+      hint: 
+    - word: vaccination
+      hint: 
+    - word: vaccinations
+      hint: 
+    - word: vaccinator
+      hint: 
+    - word: vaccinators
+      hint: 
+    - word: vaccinatory
+      hint: 
+    - word: vaccine
+      hint: 
+    - word: vaccinee
+      hint: 
+    - word: vaccinees
+      hint: 
+    - word: vaccines
+      hint: 
+    - word: vaccinia
+      hint: 
+    - word: vaccinial
+      hint: 
+    - word: vaccinias
+      hint: 
+    - word: vaccinium
+      hint: 
+    - word: vacciniums
+      hint: 
+    - word: vacherin
+      hint: 
+    - word: vacherins
+      hint: 
+    - word: vacillant
+      hint: 
+    - word: vacillate
+      hint: 
+    - word: vacillated
+      hint: 
+    - word: vacillates
+      hint: 
+    - word: vacillating
+      hint: 
+    - word: vacillatingly
+      hint: 
+    - word: vacillation
+      hint: 
+    - word: vacillations
+      hint: 
+    - word: vacillator
+      hint: 
+    - word: vacillators
+      hint: 
+    - word: vacillatory
+      hint: 
+    - word: vacked
+      hint: 
+    - word: vacking
+      hint: 
+    - word: vacs
+      hint: 
+    - word: vacua
+      hint: 
+    - word: vacuate
+      hint: 
+    - word: vacuated
+      hint: 
+    - word: vacuates
+      hint: 
+    - word: vacuating
+      hint: 
+    - word: vacuation
+      hint: 
+    - word: vacuations
+      hint: 
+    - word: vacuist
+      hint: 
+    - word: vacuists
+      hint: 
+    - word: vacuities
+      hint: 
+    - word: vacuity
+      hint: 
+    - word: vacuolar
+      hint: 
+    - word: vacuolate
+      hint: 
+    - word: vacuolated
+      hint: 
+    - word: vacuolation
+      hint: 
+    - word: vacuolations
+      hint: 
+    - word: vacuole
+      hint: 
+    - word: vacuoles
+      hint: 
+    - word: vacuolisation
+      hint: 
+    - word: vacuolisations
+      hint: 
+    - word: vacuolization
+      hint: 
+    - word: vacuolizations
+      hint: 
+    - word: vacuous
+      hint: 
+    - word: vacuously
+      hint: 
+    - word: vacuousness
+      hint: 
+    - word: vacuousnesses
+      hint: 
+    - word: vacuum
+      hint: 
+    - word: vacuumed
+      hint: 
+    - word: vacuuming
+      hint: 
+    - word: vacuums
+      hint: 
+    - word: vada
+      hint: 
+    - word: vadas
+      hint: 
+    - word: vade
+      hint: 
+    - word: vaded
+      hint: 
+    - word: vades
+      hint: 
+    - word: vading
+      hint: 
+  - words:
+    - word: wab
+      hint: 
+    - word: wabain
+      hint: 
+    - word: wabains
+      hint: 
+    - word: wabbit
+      hint: 
+    - word: wabble
+      hint: 
+    - word: wabbled
+      hint: 
+    - word: wabbler
+      hint: 
+    - word: wabblers
+      hint: 
+    - word: wabbles
+      hint: 
+    - word: wabblier
+      hint: 
+    - word: wabbliest
+      hint: 
+    - word: wabbling
+      hint: 
+    - word: wabbly
+      hint: 
+    - word: waboom
+      hint: 
+    - word: wabooms
+      hint: 
+    - word: wabs
+      hint: 
+    - word: wabster
+      hint: 
+    - word: wabsters
+      hint: 
+    - word: wack
+      hint: 
+    - word: wacke
+      hint: 
+    - word: wacked
+      hint: 
+    - word: wacker
+      hint: 
+    - word: wackers
+      hint: 
+    - word: wackes
+      hint: 
+    - word: wackier
+      hint: 
+    - word: wackiest
+      hint: 
+    - word: wackily
+      hint: 
+    - word: wackiness
+      hint: 
+    - word: wackinesses
+      hint: 
+    - word: wacking
+      hint: 
+    - word: wacko
+      hint: 
+    - word: wackoes
+      hint: 
+    - word: wackos
+      hint: 
+    - word: wacks
+      hint: 
+    - word: wacky
+      hint: 
+    - word: wad
+      hint: 
+    - word: wada
+      hint: 
+    - word: wadable
+      hint: 
+    - word: wadas
+      hint: 
+    - word: wadd
+      hint: 
+    - word: wadded
+      hint: 
+    - word: wadder
+      hint: 
+    - word: wadders
+      hint: 
+    - word: waddie
+      hint: 
+    - word: waddied
+      hint: 
+    - word: waddies
+      hint: 
+    - word: wadding
+      hint: 
+    - word: waddings
+      hint: 
+    - word: waddle
+      hint: 
+    - word: waddled
+      hint: 
+    - word: waddler
+      hint: 
+    - word: waddlers
+      hint: 
+    - word: waddles
+      hint: 
+    - word: waddling
+      hint: 
+    - word: waddly
+      hint: 
+    - word: wadds
+      hint: 
+    - word: waddy
+      hint: 
+    - word: waddying
+      hint: 
+    - word: wade
+      hint: 
+    - word: wadeable
+      hint: 
+    - word: waded
+      hint: 
+    - word: wader
+      hint: 
+    - word: waders
+      hint: 
+    - word: wades
+      hint: 
+    - word: wadge
+      hint: 
+    - word: wadges
+      hint: 
+    - word: wadi
+      hint: 
+    - word: wadies
+      hint: 
+    - word: wading
+      hint: 
+    - word: wadings
+      hint: 
+    - word: wadis
+      hint: 
+    - word: wadmaal
+      hint: 
+    - word: wadmaals
+      hint: 
+    - word: wadmal
+      hint: 
+    - word: wadmals
+      hint: 
+    - word: wadmel
+      hint: 
+    - word: wadmels
+      hint: 
+    - word: wadmol
+      hint: 
+    - word: wadmoll
+      hint: 
+    - word: wadmolls
+      hint: 
+    - word: wadmols
+      hint: 
+    - word: wads
+      hint: 
+    - word: wadset
+      hint: 
+    - word: wadsets
+      hint: 
+    - word: wadsett
+      hint: 
+    - word: wadsetted
+      hint: 
+    - word: wadsetter
+      hint: 
+    - word: wadsetters
+      hint: 
+    - word: wadsetting
+      hint: 
+    - word: wadsetts
+      hint: 
+    - word: wadt
+      hint: 
+    - word: wadts
+      hint: 
+    - word: wady
+      hint: 
+    - word: wae
+      hint: 
+    - word: waeful
+      hint: 
+    - word: waeness
+      hint: 
+    - word: waenesses
+      hint: 
+    - word: waes
+      hint: 
+    - word: waesome
+      hint: 
+    - word: waesuck
+      hint: 
+  - words:
+    - word: xantham
+      hint: 
+    - word: xanthams
+      hint: 
+    - word: xanthan
+      hint: 
+    - word: xanthans
+      hint: 
+    - word: xanthate
+      hint: 
+    - word: xanthates
+      hint: 
+    - word: xanthein
+      hint: 
+    - word: xantheins
+      hint: 
+    - word: xanthene
+      hint: 
+    - word: xanthenes
+      hint: 
+    - word: xanthic
+      hint: 
+    - word: xanthin
+      hint: 
+    - word: xanthine
+      hint: 
+    - word: xanthines
+      hint: 
+    - word: xanthins
+      hint: 
+    - word: xanthochroia
+      hint: 
+    - word: xanthochroias
+      hint: 
+    - word: xanthochroic
+      hint: 
+    - word: xanthochroics
+      hint: 
+    - word: xanthochroid
+      hint: 
+    - word: xanthochroids
+      hint: 
+    - word: xanthochroism
+      hint: 
+    - word: xanthochroisms
+      hint: 
+    - word: xanthochromia
+      hint: 
+    - word: xanthochromias
+      hint: 
+    - word: xanthochroous
+      hint: 
+    - word: xanthoma
+      hint: 
+    - word: xanthomas
+      hint: 
+    - word: xanthomata
+      hint: 
+    - word: xanthomatoses
+      hint: 
+    - word: xanthomatosis
+      hint: 
+    - word: xanthomatous
+      hint: 
+    - word: xanthomelanous
+      hint: 
+    - word: xanthone
+      hint: 
+    - word: xanthones
+      hint: 
+    - word: xanthophyll
+      hint: 
+    - word: xanthophyllic
+      hint: 
+    - word: xanthophyllous
+      hint: 
+    - word: xanthophylls
+      hint: 
+    - word: xanthopsia
+      hint: 
+    - word: xanthopsias
+      hint: 
+    - word: xanthopterin
+      hint: 
+    - word: xanthopterine
+      hint: 
+    - word: xanthopterines
+      hint: 
+    - word: xanthopterins
+      hint: 
+    - word: xanthous
+      hint: 
+    - word: xanthoxyl
+      hint: 
+    - word: xanthoxyls
+      hint: 
+    - word: xebec
+      hint: 
+    - word: xebecs
+      hint: 
+    - word: xenarthral
+      hint: 
+    - word: xenia
+      hint: 
+    - word: xenial
+      hint: 
+    - word: xenias
+      hint: 
+    - word: xenic
+      hint: 
+    - word: xenium
+      hint: 
+    - word: xenobiotic
+      hint: 
+    - word: xenobiotics
+      hint: 
+    - word: xenocryst
+      hint: 
+    - word: xenocrysts
+      hint: 
+    - word: xenodiagnoses
+      hint: 
+    - word: xenodiagnosis
+      hint: 
+    - word: xenodiagnostic
+      hint: 
+    - word: xenodochia
+      hint: 
+    - word: xenodochium
+      hint: 
+    - word: xenogamies
+      hint: 
+    - word: xenogamy
+      hint: 
+    - word: xenogeneic
+      hint: 
+    - word: xenogeneses
+      hint: 
+    - word: xenogenesis
+      hint: 
+    - word: xenogenetic
+      hint: 
+    - word: xenogenic
+      hint: 
+    - word: xenogenies
+      hint: 
+    - word: xenogenous
+      hint: 
+    - word: xenogeny
+      hint: 
+    - word: xenoglossia
+      hint: 
+    - word: xenoglossias
+      hint: 
+    - word: xenograft
+      hint: 
+    - word: xenografts
+      hint: 
+    - word: xenolith
+      hint: 
+    - word: xenolithic
+      hint: 
+    - word: xenoliths
+      hint: 
+    - word: xenomania
+      hint: 
+    - word: xenomanias
+      hint: 
+    - word: xenomenia
+      hint: 
+    - word: xenomenias
+      hint: 
+    - word: xenomorphic
+      hint: 
+    - word: xenon
+      hint: 
+    - word: xenons
+      hint: 
+    - word: xenophile
+      hint: 
+    - word: xenophiles
+      hint: 
+    - word: xenophilia
+      hint: 
+    - word: xenophilias
+      hint: 
+    - word: xenophilic
+      hint: 
+    - word: xenophilous
+      hint: 
+    - word: xenophobe
+      hint: 
+    - word: xenophobes
+      hint: 
+    - word: xenophobia
+      hint: 
+    - word: xenophobias
+      hint: 
+    - word: xenophobic
+      hint: 
+  - words:
+    - word: yabber
+      hint: 
+    - word: yabbered
+      hint: 
+    - word: yabbering
+      hint: 
+    - word: yabbers
+      hint: 
+    - word: yabbie
+      hint: 
+    - word: yabbies
+      hint: 
+    - word: yabby
+      hint: 
+    - word: yacca
+      hint: 
+    - word: yaccas
+      hint: 
+    - word: yacht
+      hint: 
+    - word: yachted
+      hint: 
+    - word: yachter
+      hint: 
+    - word: yachters
+      hint: 
+    - word: yachtie
+      hint: 
+    - word: yachties
+      hint: 
+    - word: yachting
+      hint: 
+    - word: yachtings
+      hint: 
+    - word: yachtman
+      hint: 
+    - word: yachtmanship
+      hint: 
+    - word: yachtmanships
+      hint: 
+    - word: yachtmen
+      hint: 
+    - word: yachts
+      hint: 
+    - word: yachtsman
+      hint: 
+    - word: yachtsmanship
+      hint: 
+    - word: yachtsmanships
+      hint: 
+    - word: yachtsmen
+      hint: 
+    - word: yachtswoman
+      hint: 
+    - word: yachtswomen
+      hint: 
+    - word: yack
+      hint: 
+    - word: yacked
+      hint: 
+    - word: yacker
+      hint: 
+    - word: yackers
+      hint: 
+    - word: yacking
+      hint: 
+    - word: yacks
+      hint: 
+    - word: yaff
+      hint: 
+    - word: yaffed
+      hint: 
+    - word: yaffing
+      hint: 
+    - word: yaffingale
+      hint: 
+    - word: yaffingales
+      hint: 
+    - word: yaffle
+      hint: 
+    - word: yaffles
+      hint: 
+    - word: yaffs
+      hint: 
+    - word: yag
+      hint: 
+    - word: yager
+      hint: 
+    - word: yagers
+      hint: 
+    - word: yagger
+      hint: 
+    - word: yaggers
+      hint: 
+    - word: yagi
+      hint: 
+    - word: yagis
+      hint: 
+    - word: yags
+      hint: 
+    - word: yah
+      hint: 
+    - word: yahoo
+      hint: 
+    - word: yahooism
+      hint: 
+    - word: yahooisms
+      hint: 
+    - word: yahoos
+      hint: 
+    - word: yahrzeit
+      hint: 
+    - word: yahrzeits
+      hint: 
+    - word: yahs
+      hint: 
+    - word: yaird
+      hint: 
+    - word: yairds
+      hint: 
+    - word: yak
+      hint: 
+    - word: yakhdan
+      hint: 
+    - word: yakhdans
+      hint: 
+    - word: yakimona
+      hint: 
+    - word: yakimonas
+      hint: 
+    - word: yakitori
+      hint: 
+    - word: yakitoris
+      hint: 
+    - word: yakka
+      hint: 
+    - word: yakkas
+      hint: 
+    - word: yakked
+      hint: 
+    - word: yakker
+      hint: 
+    - word: yakkers
+      hint: 
+    - word: yakking
+      hint: 
+    - word: yakow
+      hint: 
+    - word: yakows
+      hint: 
+    - word: yaks
+      hint: 
+    - word: yakuza
+      hint: 
+    - word: yald
+      hint: 
+    - word: yale
+      hint: 
+    - word: yales
+      hint: 
+    - word: yam
+      hint: 
+    - word: yamalka
+      hint: 
+    - word: yamalkas
+      hint: 
+    - word: yamen
+      hint: 
+    - word: yamens
+      hint: 
+    - word: yammer
+      hint: 
+    - word: yammered
+      hint: 
+    - word: yammerer
+      hint: 
+    - word: yammerers
+      hint: 
+    - word: yammering
+      hint: 
+    - word: yammerings
+      hint: 
+    - word: yammers
+      hint: 
+    - word: yams
+      hint: 
+    - word: yamulka
+      hint: 
+    - word: yamulkas
+      hint: 
+    - word: yamun
+      hint: 
+    - word: yamuns
+      hint: 
+    - word: yancha
+      hint: 
+    - word: yanchas
+      hint: 
+    - word: yang
+      hint: 
+  - words:
+    - word: zabaglione
+      hint: 
+    - word: zabagliones
+      hint: 
+    - word: zabaione
+      hint: 
+    - word: zabaiones
+      hint: 
+    - word: zabajone
+      hint: 
+    - word: zabajones
+      hint: 
+    - word: zabeta
+      hint: 
+    - word: zabetas
+      hint: 
+    - word: zabra
+      hint: 
+    - word: zabras
+      hint: 
+    - word: zabtieh
+      hint: 
+    - word: zabtiehs
+      hint: 
+    - word: zacaton
+      hint: 
+    - word: zacatons
+      hint: 
+    - word: zack
+      hint: 
+    - word: zacks
+      hint: 
+    - word: zaddick
+      hint: 
+    - word: zaddik
+      hint: 
+    - word: zaddikim
+      hint: 
+    - word: zaddiks
+      hint: 
+    - word: zaffar
+      hint: 
+    - word: zaffars
+      hint: 
+    - word: zaffer
+      hint: 
+    - word: zaffers
+      hint: 
+    - word: zaffir
+      hint: 
+    - word: zaffirs
+      hint: 
+    - word: zaffre
+      hint: 
+    - word: zaffres
+      hint: 
+    - word: zaftig
+      hint: 
+    - word: zag
+      hint: 
+    - word: zagged
+      hint: 
+    - word: zagging
+      hint: 
+    - word: zags
+      hint: 
+    - word: zaibatsu
+      hint: 
+    - word: zaikai
+      hint: 
+    - word: zaikais
+      hint: 
+    - word: zaire
+      hint: 
+    - word: zaires
+      hint: 
+    - word: zakat
+      hint: 
+    - word: zakats
+      hint: 
+    - word: zakuska
+      hint: 
+    - word: zakuski
+      hint: 
+    - word: zalambdodont
+      hint: 
+    - word: zalambdodonts
+      hint: 
+    - word: zaman
+      hint: 
+    - word: zamang
+      hint: 
+    - word: zamangs
+      hint: 
+    - word: zamans
+      hint: 
+    - word: zamarra
+      hint: 
+    - word: zamarras
+      hint: 
+    - word: zamarro
+      hint: 
+    - word: zamarros
+      hint: 
+    - word: zambo
+      hint: 
+    - word: zambomba
+      hint: 
+    - word: zambombas
+      hint: 
+    - word: zamboorak
+      hint: 
+    - word: zambooraks
+      hint: 
+    - word: zambos
+      hint: 
+    - word: zambuck
+      hint: 
+    - word: zambucks
+      hint: 
+    - word: zambuk
+      hint: 
+    - word: zambuks
+      hint: 
+    - word: zamia
+      hint: 
+    - word: zamias
+      hint: 
+    - word: zamindar
+      hint: 
+    - word: zamindari
+      hint: 
+    - word: zamindaries
+      hint: 
+    - word: zamindaris
+      hint: 
+    - word: zamindars
+      hint: 
+    - word: zamindary
+      hint: 
+    - word: zamouse
+      hint: 
+    - word: zamouses
+      hint: 
+    - word: zampogna
+      hint: 
+    - word: zampognas
+      hint: 
+    - word: zampone
+      hint: 
+    - word: zamponi
+      hint: 
+    - word: zanana
+      hint: 
+    - word: zananas
+      hint: 
+    - word: zander
+      hint: 
+    - word: zanders
+      hint: 
+    - word: zandoli
+      hint: 
+    - word: zandolis
+      hint: 
+    - word: zanella
+      hint: 
+    - word: zanellas
+      hint: 
+    - word: zanied
+      hint: 
+    - word: zanier
+      hint: 
+    - word: zanies
+      hint: 
+    - word: zaniest
+      hint: 
+    - word: zanily
+      hint: 
+    - word: zaniness
+      hint: 
+    - word: zaninesses
+      hint: 
+    - word: zanja
+      hint: 
+    - word: zanjas
+      hint: 
+    - word: zanjero
+      hint: 
+    - word: zanjeros
+      hint: 
+    - word: zante
+      hint: 
+    - word: zantedeschia
+      hint: 
+    - word: zantedeschias
+      hint: 
+    - word: zantes
+      hint: 
+    - word: zanthoxyl
+      hint: 
+  count: 2600
