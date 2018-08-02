@@ -167,8 +167,10 @@ namespace Crossword
 							}
 						} else
 						{
-							EditorGUILayout.LabelField(editor_contents[7], "box", GUILayout.Width(25));
-						}
+                            GUI.enabled = false;
+                            EditorGUILayout.LabelField(editor_contents[7], "button", GUILayout.Width(25));
+                            GUI.enabled = true;
+                        }
 						EditorGUILayout.LabelField("Page " + (show_page[c - 'a'] + 1).ToString(), center_word, GUILayout.ExpandWidth(true));
 						if((show_page[c - 'a'] + 1) * words_per_page < curr_list.Count)
 						{
@@ -179,8 +181,10 @@ namespace Crossword
 							}
 						} else
 						{
-							EditorGUILayout.LabelField(editor_contents[8], "box", GUILayout.Width(25));
-						}
+                            GUI.enabled = false;
+                            EditorGUILayout.LabelField(editor_contents[8], "button", GUILayout.Width(25));
+                            GUI.enabled = true;
+                        }
 						EditorGUILayout.EndHorizontal();
 						// show only some words and let user flip through pages to prevent lag.
 						for (int i = show_page[c - 'a'] * words_per_page; i < ((show_page[c - 'a'] + 1) * words_per_page) && i < curr_list.Count; ++i)
@@ -233,7 +237,9 @@ namespace Crossword
 				}
 			} else
 			{
-				EditorGUILayout.LabelField(editor_contents[6], "box", GUILayout.ExpandWidth(true));
+                GUI.enabled = false;
+				EditorGUILayout.LabelField(editor_contents[6], "button", GUILayout.ExpandWidth(true));
+                GUI.enabled = true;
 			}
 			EditorGUILayout.Space();
             DisplayFileLoader();
