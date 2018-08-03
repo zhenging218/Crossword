@@ -36,9 +36,7 @@ MonoBehaviour:
     - word: aardwolf
       hint: 
     - word: aardwolves
-      hint: 
-    - word: aargh
-      hint: 
+      hint: wolves with aard
     - word: aarrgh
       hint: 
     - word: aarrghh
@@ -210,8 +208,6 @@ MonoBehaviour:
     - word: abatures
       hint: 
     - word: abaxial
-      hint: 
-    - word: abaxile
       hint: 
   - words:
     - word: baa
@@ -5238,4 +5234,4 @@ MonoBehaviour:
       hint: 
     - word: zanthoxyl
       hint: 
-  count: 2600
+  count: 2598

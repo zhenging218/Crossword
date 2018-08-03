@@ -195,6 +195,10 @@ namespace Crossword
                             if (GUILayout.Button("-", GUILayout.Width(25)))
                             {
 								db.RemoveWord(c, i);
+                                if(i > curr_list.Count - 1 && show_page[c - 'a'] > 0)
+                                {
+                                    --show_page[c - 'a'];
+                                }
                                 EditorUtility.SetDirty(db);
 								BlankInterface();
                                 return;
@@ -217,6 +221,7 @@ namespace Crossword
             if(GUILayout.Button(editor_contents[2]))
             {
                 state = State.ADD;
+                newWord = newHint = string.Empty;
             }
 			
             EditorGUILayout.EndHorizontal();
@@ -243,15 +248,20 @@ namespace Crossword
                     newHint = EditorGUILayout.TextArea(newHint);
                     EditorGUILayout.Space();
                     if (GUILayout.Button("Done", GUILayout.Width(100))) {
-                        bool ok = db.AddWord(newWord, newHint);
-                        if(!ok)
+                        if(newWord.Length == 0)
                         {
-                            EditorUtility.DisplayDialog("Error!", "The word " + newWord + " already exists!", "OK");
-                        }
-                        else
-                        {
-                            EditorUtility.SetDirty(db);
-                            newWord = newHint = string.Empty;
+                            EditorUtility.DisplayDialog("Error!", "You need to input a word!", "OK");
+                        } else {
+                            bool ok = db.AddWord(newWord, newHint);
+                            if (!ok)
+                            {
+                                EditorUtility.DisplayDialog("Error!", "The word " + newWord + " already exists!", "OK");
+                            }
+                            else
+                            {
+                                EditorUtility.SetDirty(db);
+                                BlankInterface();
+                            }
                         }
                     }
                     break;
