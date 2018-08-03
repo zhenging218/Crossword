@@ -11,7 +11,7 @@ namespace Crossword
     {
 		static GUIContent[] editor_contents =
 		{
-            /* 0 */ new GUIContent("Open Word List", "Opens a text file containing words to supply the database."),
+            /* 0 */ new GUIContent("Import Word List", "Opens a text file containing words to supply the database."),
             /* 1 */ new GUIContent("Has Hints", "Toggles whether the text file supplied contains hints under each word."),
             /* 2 */ new GUIContent("New word", "Adds a new word to the list."),
             /* 3 */ new GUIContent("Word:", "Word to add/edit."),
@@ -50,14 +50,13 @@ namespace Crossword
         List<bool> show_alpha;
 		List<int> show_page;
         bool file_has_hint = false;
-		bool dirty = false;
 		int words_per_page;
 
         [MenuItem("Word Database/Show Word Database")]
         public static void Init()
         {
             WordDatabaseEditor wnd = GetWindow<WordDatabaseEditor>();
-            wnd.minSize = new Vector2(400, 400);
+            wnd.minSize = new Vector2(500, 500);
             wnd.Show();
         }
 
@@ -120,7 +119,6 @@ namespace Crossword
 		void Save()
 		{
 			AssetDatabase.SaveAssets();
-			dirty = false;
 		}
 
 		void BlankInterface()
@@ -140,12 +138,9 @@ namespace Crossword
 					db.ClearAllWords();
 					BlankInterface();
                     EditorUtility.SetDirty(this);
-                    dirty = true;
 					return;
 				}
 			}
-			words_per_page = EditorGUILayout.IntSlider(editor_contents[9], words_per_page, 1, 20, GUILayout.ExpandWidth(true));
-			EditorGUILayout.Space();
 			scrollPos = EditorGUILayout.BeginScrollView(scrollPos, "box", GUILayout.ExpandHeight(true));
 			for (char c = 'a'; c <= 'z'; ++c)
             {
@@ -168,7 +163,7 @@ namespace Crossword
 						} else
 						{
                             GUI.enabled = false;
-                            EditorGUILayout.LabelField(editor_contents[7], "button", GUILayout.Width(25));
+                            GUILayout.Button(editor_contents[7], "button", GUILayout.Width(25));
                             GUI.enabled = true;
                         }
 						EditorGUILayout.LabelField("Page " + (show_page[c - 'a'] + 1).ToString(), center_word, GUILayout.ExpandWidth(true));
@@ -182,7 +177,7 @@ namespace Crossword
 						} else
 						{
                             GUI.enabled = false;
-                            EditorGUILayout.LabelField(editor_contents[8], "button", GUILayout.Width(25));
+                            GUILayout.Button(editor_contents[8], "button", GUILayout.Width(25));
                             GUI.enabled = true;
                         }
 						EditorGUILayout.EndHorizontal();
@@ -201,7 +196,6 @@ namespace Crossword
                             {
 								db.RemoveWord(c, i);
                                 EditorUtility.SetDirty(db);
-								dirty = true;
 								BlankInterface();
                                 return;
                             }
@@ -212,12 +206,11 @@ namespace Crossword
                 } else
                 {
                     show_alpha[c - 'a'] = false;
-                    EditorGUILayout.LabelField(char.ToUpper(c).ToString());
+                    // EditorGUILayout.LabelField(char.ToUpper(c).ToString());
                 }
                 // end alphabet area
             }
             EditorGUILayout.EndScrollView();
-            EditorGUILayout.Space();
             EditorGUILayout.BeginHorizontal(GUILayout.ExpandWidth(true));
             EditorGUILayout.LabelField("Total words: " + db.Size.ToString());
             EditorGUILayout.Space();
@@ -228,33 +221,21 @@ namespace Crossword
 			
             EditorGUILayout.EndHorizontal();
             EditorGUILayout.Space();
-			if (dirty)
-			{
-				if (GUILayout.Button(editor_contents[6], GUILayout.ExpandWidth(true)))
-				{
-					AssetDatabase.SaveAssets();
-                    dirty = false;
-				}
-			} else
-			{
-                GUI.enabled = false;
-				EditorGUILayout.LabelField(editor_contents[6], "button", GUILayout.ExpandWidth(true));
-                GUI.enabled = true;
-			}
-			EditorGUILayout.Space();
+            words_per_page = EditorGUILayout.IntSlider(editor_contents[9], words_per_page, 1, 20, GUILayout.ExpandWidth(true));
+            EditorGUILayout.Space();
             DisplayFileLoader();
 			EditorGUILayout.EndVertical();
         }
 
         void DisplayWordEditArea()
         {
-            EditorGUILayout.BeginVertical(GUILayout.ExpandWidth(true));
+            EditorGUILayout.BeginVertical(GUILayout.Width(250), GUILayout.ExpandWidth(true));
             EditorGUILayout.Space();
 
             switch(state)
             {
                 case State.ADD:
-                    EditorGUILayout.BeginHorizontal();
+                    EditorGUILayout.BeginHorizontal(GUILayout.Width(250));
                     newWord = EditorGUILayout.TextField(editor_contents[3], newWord);
                     EditorGUILayout.LabelField(newWord.Length.ToString());
                     EditorGUILayout.EndHorizontal();
@@ -270,13 +251,12 @@ namespace Crossword
                         else
                         {
                             EditorUtility.SetDirty(db);
-							dirty = true;
                             newWord = newHint = string.Empty;
                         }
                     }
                     break;
                 case State.EDIT:
-                    EditorGUILayout.BeginHorizontal();
+                    EditorGUILayout.BeginHorizontal(GUILayout.Width(250));
                     newWord = EditorGUILayout.TextField(editor_contents[3], newWord);
                     EditorGUILayout.LabelField(newWord.Length.ToString());
                     EditorGUILayout.EndHorizontal();
@@ -298,13 +278,11 @@ namespace Crossword
                                 db[selected_word.group, selected_word.index].word = newWord;
                                 db[selected_word.group, selected_word.index].hint = newHint;
                                 EditorUtility.SetDirty(db);
-								dirty = true;
                             }
                         } else
                         {
                             db[selected_word.group, selected_word.index].hint = newHint;
                             EditorUtility.SetDirty(db);
-							dirty = true;
                         }
                     }
                     break;
@@ -322,7 +300,6 @@ namespace Crossword
             if(GUILayout.Button(editor_contents[0]))
             {
                 string filename = EditorUtility.OpenFilePanel("Select Word List", "", "txt");
-				dirty = true;
 				EditorUtility.SetDirty(this);
 				if (filename.Length > 0)
                 {
