@@ -163,31 +163,48 @@ namespace Crossword
 			count = 0;
 		}
 
-        public void ReadFromFile(string filename, bool has_hint = false)
-        {
-            FileInfo src = new FileInfo(filename);
-            StreamReader ifs = src.OpenText();
-            while(!ifs.EndOfStream)
-            {
-                string curr = ifs.ReadLine();
-				if(curr.Length < 2)
+		public void SearchWords(string substr, ref List<Pair<char, int>> ret)
+		{
+			ret.Clear();
+			if (substr.Length > 0)
+			{
+				char c = char.ToLower(substr[0]);
+				int start = c - 'a';
+				for (int i = 0; i < words[start].Count; ++i)
 				{
-					continue;
+					if (words[start][i].word.StartsWith(substr))
+					{
+						ret.Add(Pairs.MakePair(c, i));
+					}
 				}
-                string hint = string.Empty;
-                if(has_hint)
-                {
-                    hint = ifs.ReadLine();
-                }
-                // do not accept non alphabetical items
-                if(!is_alpha(curr))
-                {
-                    continue;
-                }
-				AddWord(curr, hint);
-            }
-            ifs.Close();
-            ifs = null;
-        }
+			}
+			if (ret.Count > 0)
+			{
+				ret.OrderBy(x => x.Right);
+			}
+		}
+
+		public List<Pair<char, int>> SearchWords(string substr)
+		{
+			List<Pair<char, int>> ret = new List<Pair<char, int>>();
+
+			if (substr.Length > 0)
+			{
+				char c = char.ToLower(substr[0]);
+				int start = c - 'a';
+				for (int i = 0; i < words[start].Count; ++i)
+				{
+					if (words[start][i].word.StartsWith(substr))
+					{
+						ret.Add(Pairs.MakePair(c, i));
+					}
+				}
+			}
+			if (ret.Count > 0)
+			{
+				ret.OrderBy(x => x.Right);
+			}
+			return ret;
+		}
     }
 }
