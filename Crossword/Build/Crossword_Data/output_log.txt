@@ -1,0 +1,49 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     1960 MB
+    Driver:   24.21.13.9836
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\zhenging.yiu\Desktop\GitHub\Crossword\Crossword\Build\Crossword_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\zhenging.yiu\Desktop\GitHub\Crossword\Crossword\Build\Crossword_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\zhenging.yiu\Desktop\GitHub\Crossword\Crossword\Build\Crossword_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\zhenging.yiu\Desktop\GitHub\Crossword\Crossword\Build\Crossword_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\zhenging.yiu\Desktop\GitHub\Crossword\Crossword\Build\Crossword_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\zhenging.yiu\Desktop\GitHub\Crossword\Crossword\Build\Crossword_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\zhenging.yiu\Desktop\GitHub\Crossword\Crossword\Build\Crossword_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\zhenging.yiu\Desktop\GitHub\Crossword\Crossword\Build\Crossword_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\zhenging.yiu\Desktop\GitHub\Crossword\Crossword\Build\Crossword_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\zhenging.yiu\Desktop\GitHub\Crossword\Crossword\Build\Crossword_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\zhenging.yiu\Desktop\GitHub\Crossword\Crossword\Build\Crossword_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\zhenging.yiu\Desktop\GitHub\Crossword\Crossword\Build\Crossword_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.015 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.806553 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.924996 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 304.
+Total: 0.168780 ms (FindLiveObjects: 0.022237 ms CreateObjectMapping: 0.008838 ms MarkObjects: 0.120312 ms  DeleteObjects: 0.016821 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.291374 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1574.
+Total: 1.092795 ms (FindLiveObjects: 0.050748 ms CreateObjectMapping: 0.031646 ms MarkObjects: 0.937129 ms  DeleteObjects: 0.072986 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.152507 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1574.
+Total: 1.057157 ms (FindLiveObjects: 0.054169 ms CreateObjectMapping: 0.029080 ms MarkObjects: 0.958797 ms  DeleteObjects: 0.014540 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 65b4 -> priority: 1 
+  Thread -> id: 65bc -> priority: 1 
+  Thread -> id: 65c0 -> priority: 1 
+  Thread -> id: 65b8 -> priority: 1 
